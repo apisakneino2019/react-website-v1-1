@@ -8,6 +8,7 @@
 .home,
 .services,
 .products,
+.test,
 .sign-up {
   display: flex;
   height: 90vh;
@@ -17,7 +18,7 @@
 }
 
 .services {
-  background-image: url('/images/img-2.jpg');
+  background-image: url('/images/img-5.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -26,19 +27,60 @@
 }
 
 .products {
-  background-image: url('/images/img-1.jpg');
+  background-image: url('/images/img-2.jpg');
   background-position: center;
   background-size: fill;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
 }
+.test {
+  background-image: url('/images/img-2.jpg');
+  background-position: center;
+  background-size: fill;
+  background-repeat: no-repeat;
+  color: #fff;
+  font-size: 100px;
+  
+  
+}
 
 .sign-up {
-  background-image: url('/images/img-8.jpg');
+  background-image: url('/images/img-1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   color: #fff;
   font-size: 100px;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+  width:1140px; 
+  margin: 0 auto;
+  /* background-color: aqua; */
+}
+.item{ 
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr ;
+  text-align:  center;
+  
+}
+.text { 
+  color: #fff;
+  font-size:  10px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  padding: 30px;
+}
+.img img{
+  width: 100%;
+  height: auto;
+  padding-left: 10px;
+}
+.area{ 
+  background-color: rgb(182, 3, 3);
 }
