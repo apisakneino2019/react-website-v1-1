@@ -84,3 +84,22 @@
 .area{ 
   background-color: rgb(182, 3, 3);
 }
+
+.btn btn-1 {
+  color: rgb(255, 255, 255);
+
+}
+.btn-1{
+  color: rgb(21, 1, 1);
+  display: inline-block;
+  padding: 15px 25px;
+  font-size: 1.4rem;
+  cursor: pointer;
+  text-align: center;	
+  text-decoration: none;
+  outline: none;
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
