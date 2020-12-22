@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.item-container {
+    width: 1140px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.containers {
+    max-width: 1140px;
+    margin: 0 auto;
+    background-color: rgb(255, 255, 255);
+}
+
+
+/* .text h1 {
+    margin: 10px;
+    color: black;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    font-size: 1em;
+    
+} */
