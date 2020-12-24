@@ -50,6 +50,15 @@ function Navbar() {
                 Services
               </Link>
             </li>
+            <li className="nav-item">
+              <Link
+                to="/AboutUs"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                AboutUs
+              </Link>
+            </li>
 
             <li className="nav-item">
               <Link
