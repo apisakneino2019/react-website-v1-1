@@ -13,7 +13,7 @@ function Footer() {
         <p className="footer-subscription-text">
           You can unsubscribe at any time.
         </p>
-        <div className="input-areas">
+        {/* <div className="input-areas">
           <form>
             <input
               className="footer-input"
@@ -23,40 +23,46 @@ function Footer() {
             />
             <Button buttonStyle="btn--outline">Subscribe</Button>
           </form>
-        </div>
+        </div> */}
       </section>
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
-            <Link to="">Customer Us</Link>
+            {/* <Link to="">Customer Us</Link>
             <Link to="">Testimonials</Link>
             <Link to="">Careers</Link>
             <Link to="">Investors</Link>
-            <Link to="">Terms of Service</Link>
+            <Link to="">Terms of Service</Link> */}
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <Link to="">Contact</Link>
+            <span> บริษัท ออลล์โซลูชั่นส์เทค จำกัด / ALL SOLUTIONS TECH CO.,LTD.
+                ที่อยู่ : 47/316 ถ.ป๊อปปูล่า ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120    47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120  (สำนักงานใหญ่) 
+                 ที่อยู่ : 3279/25 ถ.สืบศิริ ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000     3279/25 Suebsiri Rd., T.Nimueng, A.Mueng, NakhonRatchasima, Thailand 30000 (สำนักงานนครราชสีมา) 
+                โทรศัพท์/แฟ็กซ์ 02-012-3795 / 065-969-3552  Tel./Fax. +662-012-3795 Mobile:+665-969-3552   Email: ast.allsolutionstech@gmail.com
+                สอบถามข้อมูลเรื่องกล้องวงจรปิด, จำหน่ายกล้องวงจรปิด, เครื่องสแกนลายนิ้วมือ,>สัญญาณกันขโมยบ้าน, ตู้สาขาโทรศัพท์, วางระบบ Network,
+                 ติดตั้งประตู AutoDoor, แผงไม้กัน, วางระบบ CarPark, ออกแบบระบบขายหน้าร้าน POS ระบบซื้อมาขายไป ระบบจ่ายเงินเดือน และอีกมากมาย</span>
+            {/* <Link to="">Contact</Link>
             <Link to="">Support</Link>
             <Link to="">Destinations</Link>
-            <Link to="">Sponsorships</Link>
+            <Link to="">Sponsorships</Link> */}
           </div>
         </div>
         <div className="footer-link-wrapper">
-          <div class="footer-link-items">
+          {/* <div class="footer-link-items">
             <h2>Videos</h2>
             <Link to="">Submit Video</Link>
             <Link to="">Ambassadors</Link>
             <Link to="">Agency</Link>
             <Link to="">Influencer</Link>
-          </div>
+          </div> */}
           <div class="footer-link-items">
             <h2>Social Media</h2>
-            <Link to="">Instagram</Link>
+            {/* <Link to="">Instagram</Link>
             <Link to="">Facebook</Link>
             <Link to="">Youtube</Link>
-            <Link to="">Twitter</Link>
+            <Link to="">Twitter</Link> */}
           </div>
         </div>
       </div>
