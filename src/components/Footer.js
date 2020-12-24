@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Button } from "./Button";
+// import { Button } from "./Button";
 import { Link } from "react-router-dom";
 
 function Footer() {
@@ -29,6 +29,37 @@ function Footer() {
         <div className="footer-link-wrapper">
           <div class="footer-link-items">
             <h2>About Us</h2>
+            <span>
+              บริษัท ออลล์โซลูชั่นส์เทค จำกัด <br /> ALL SOLUTIONS TECH CO.,LTD.
+            </span>
+            <br />
+            <span>
+              ที่อยู่ : 47/316 ถ.ป๊อปปูล่า ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120
+              <br />
+              47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120
+              (สำนักงานใหญ่)
+            </span>
+            <br />
+            <span>
+              ที่อยู่ : 3279/25 ถ.สืบศิริ ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000
+              <br />
+              3279/25 Suebsiri Rd., T.Nimueng, A.Mueng, NakhonRatchasima,
+              Thailand 30000 (สำนักงานนครราชสีมา)
+            </span>
+            <br />
+            <span>
+              โทรศัพท์/แฟ็กซ์ 02-012-3795 / 065-969-3552
+              <br /> Tel./Fax. +662-012-3795 Mobile:+665-969-3552 <br />
+              Email: ast.allsolutionstech@gmail.com
+            </span>
+            <br />
+            <span>
+              สอบถามข้อมูลเรื่องกล้องวงจรปิด, จำหน่ายกล้องวงจรปิด,
+              เครื่องสแกนลายนิ้วมือ,สัญญาณกันขโมยบ้าน, ตู้สาขาโทรศัพท์, วางระบบ
+              Network, ติดตั้งประตู AutoDoor, แผงไม้กัน, วางระบบ CarPark,
+              ออกแบบระบบขายหน้าร้าน POS ระบบซื้อมาขายไป ระบบจ่ายเงินเดือน
+              และอีกมากมาย
+            </span>
             {/* <Link to="">Customer Us</Link>
             <Link to="">Testimonials</Link>
             <Link to="">Careers</Link>
@@ -37,12 +68,38 @@ function Footer() {
           </div>
           <div class="footer-link-items">
             <h2>Contact Us</h2>
-            <span> บริษัท ออลล์โซลูชั่นส์เทค จำกัด / ALL SOLUTIONS TECH CO.,LTD.
-                ที่อยู่ : 47/316 ถ.ป๊อปปูล่า ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120    47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120  (สำนักงานใหญ่) 
-                 ที่อยู่ : 3279/25 ถ.สืบศิริ ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000     3279/25 Suebsiri Rd., T.Nimueng, A.Mueng, NakhonRatchasima, Thailand 30000 (สำนักงานนครราชสีมา) 
-                โทรศัพท์/แฟ็กซ์ 02-012-3795 / 065-969-3552  Tel./Fax. +662-012-3795 Mobile:+665-969-3552   Email: ast.allsolutionstech@gmail.com
-                สอบถามข้อมูลเรื่องกล้องวงจรปิด, จำหน่ายกล้องวงจรปิด, เครื่องสแกนลายนิ้วมือ,>สัญญาณกันขโมยบ้าน, ตู้สาขาโทรศัพท์, วางระบบ Network,
-                 ติดตั้งประตู AutoDoor, แผงไม้กัน, วางระบบ CarPark, ออกแบบระบบขายหน้าร้าน POS ระบบซื้อมาขายไป ระบบจ่ายเงินเดือน และอีกมากมาย</span>
+            <span>
+              บริษัท ออลล์โซลูชั่นส์เทค จำกัด <br /> ALL SOLUTIONS TECH CO.,LTD.
+            </span>
+            <br />
+            <span>
+              ที่อยู่ : 47/316 ถ.ป๊อปปูล่า ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120
+              <br />
+              47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120
+              (สำนักงานใหญ่)
+            </span>
+            <br />
+            <span>
+              ที่อยู่ : 3279/25 ถ.สืบศิริ ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000
+              <br />
+              3279/25 Suebsiri Rd., T.Nimueng, A.Mueng, NakhonRatchasima,
+              Thailand 30000 (สำนักงานนครราชสีมา)
+            </span>
+            <br />
+            <span>
+              โทรศัพท์/แฟ็กซ์ 02-012-3795 / 065-969-3552
+              <br /> Tel./Fax. +662-012-3795 Mobile:+665-969-3552 <br />
+              Email: ast.allsolutionstech@gmail.com
+            </span>
+            <br />
+            <span>
+              สอบถามข้อมูลเรื่องกล้องวงจรปิด, จำหน่ายกล้องวงจรปิด,
+              เครื่องสแกนลายนิ้วมือ,สัญญาณกันขโมยบ้าน, ตู้สาขาโทรศัพท์, วางระบบ
+              Network, ติดตั้งประตู AutoDoor, แผงไม้กัน, วางระบบ CarPark,
+              ออกแบบระบบขายหน้าร้าน POS ระบบซื้อมาขายไป ระบบจ่ายเงินเดือน
+              และอีกมากมาย
+            </span>
+
             {/* <Link to="">Contact</Link>
             <Link to="">Support</Link>
             <Link to="">Destinations</Link>
@@ -59,6 +116,37 @@ function Footer() {
           </div> */}
           <div class="footer-link-items">
             <h2>Social Media</h2>
+            <span>
+              บริษัท ออลล์โซลูชั่นส์เทค จำกัด <br /> ALL SOLUTIONS TECH CO.,LTD.
+            </span>
+            <br />
+            <span>
+              ที่อยู่ : 47/316 ถ.ป๊อปปูล่า ต.บ้านใหม่ อ.ปากเกร็ด จ.นนทบุรี 11120
+              <br />
+              47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120
+              (สำนักงานใหญ่)
+            </span>
+            <br />
+            <span>
+              ที่อยู่ : 3279/25 ถ.สืบศิริ ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000
+              <br />
+              3279/25 Suebsiri Rd., T.Nimueng, A.Mueng, NakhonRatchasima,
+              Thailand 30000 (สำนักงานนครราชสีมา)
+            </span>
+            <br />
+            <span>
+              โทรศัพท์/แฟ็กซ์ 02-012-3795 / 065-969-3552
+              <br /> Tel./Fax. +662-012-3795 Mobile:+665-969-3552 <br />
+              Email: ast.allsolutionstech@gmail.com
+            </span>
+            <br />
+            <span>
+              สอบถามข้อมูลเรื่องกล้องวงจรปิด, จำหน่ายกล้องวงจรปิด,
+              เครื่องสแกนลายนิ้วมือ,สัญญาณกันขโมยบ้าน, ตู้สาขาโทรศัพท์, วางระบบ
+              Network, ติดตั้งประตู AutoDoor, แผงไม้กัน, วางระบบ CarPark,
+              ออกแบบระบบขายหน้าร้าน POS ระบบซื้อมาขายไป ระบบจ่ายเงินเดือน
+              และอีกมากมาย
+            </span>
             {/* <Link to="">Instagram</Link>
             <Link to="">Facebook</Link>
             <Link to="">Youtube</Link>
@@ -78,7 +166,7 @@ function Footer() {
           <div class="social-icons">
             <Link
               class="social-icon-link facebook"
-              to=""
+              to="/test"
               target="_blank"
               aria-label="Facebook"
             >

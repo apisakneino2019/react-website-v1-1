@@ -16,7 +16,7 @@ function Cards() {
               path="/test"
             />
             <CardItem
-              src="images-all/dev-1.jpg"
+              src="/images-all/panels-1.png"
               text="Travel through the Islands of Bali in a Private Cruise"
               label="Luxury"
               path="/test"

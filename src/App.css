@@ -45,10 +45,12 @@
 }
 
 .sign-up {
-    background-image: url('/images-all/system-1.jpg');
+    background-image: url('/images-all/system-1-1.png');
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
+    height: 280vh;
+    width: 100%;
     color: #fff;
     font-size: 100px;
 }
