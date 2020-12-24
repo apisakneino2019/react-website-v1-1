@@ -1,6 +1,6 @@
 .cards {
     padding: 4rem;
-    background: rgb(0, 0, 0);
+    background: rgb(56, 56, 56);
 }
 
 h1 {
@@ -21,12 +21,13 @@ h1 {
     margin: 50px 0 45px;
 }
 
-.cards__items {
+.cards__items CardItem {
     margin-bottom: 24px;
+    background-color: black;
 }
 
 .cards__item {
-    display: flex;
+    display: inline-block;
     flex: 1;
     margin: 0 1rem;
     border-radius: 10px;
@@ -35,8 +36,9 @@ h1 {
 .cards__item__link {
     display: flex;
     flex-flow: column;
+    padding: 10px;
     width: 100%;
-    box-shadow: 0 6px 20px rgba(56, 125, 255, 0.17);
+    box-shadow: 0 6px 20px rgb(255, 255, 255);
     -webkit-filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     filter: drop-shadow(0 6px 20px rgba(56, 125, 255, 0.017));
     border-radius: 10px;
@@ -58,13 +60,14 @@ h1 {
 
 .cards__item__pic-wrap::after {
     content: attr(data-category);
-    position: absolute;
+    position: sticky;
+    text-transform: uppercase;
     bottom: 0;
     margin-left: 10px;
-    padding: 6px 8px;
+    padding: 10px 10px;
     max-width: calc((100%) - 60px);
-    font-size: 12px;
-    font-weight: 700;
+    font-size: 14px;
+    font-weight: bold;
     color: #fff;
     background-color: #1f98f4;
     box-sizing: border-box;
@@ -96,9 +99,10 @@ h1 {
 }
 
 .cards__item__text {
-    color: #252e48;
+    color: #ffffff;
     font-size: 18px;
     line-height: 24px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media only screen and (min-width: 1200px) {

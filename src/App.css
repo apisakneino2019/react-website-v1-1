@@ -69,7 +69,7 @@
 .item {
     width: 1140px;
     display: grid;
-    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-columns: repeat(4, 0.5fr);
     text-align: center;
 }
 
@@ -117,7 +117,7 @@
 
 .btn-1:active {
     background-color: #001eff;
-    box-shadow: 0 5px rgb(46, 7, 7);
+    box-shadow: 0 5px rgb(39, 60, 67);
     transform: translateY(4px);
 }
 

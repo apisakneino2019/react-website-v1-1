@@ -7,6 +7,19 @@
     align-items: center;
 }
 
+.footer-container h1 {
+    display: block;
+    background-color: chartreuse;
+    width: 80%;
+    height: auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 50px;
+    border-radius: 25px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
 .footer-subscription {
     display: flex;
     flex-direction: column;
@@ -18,18 +31,22 @@
     color: rgb(16, 2, 2);
 }
 
-.footer-subscription>p {
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-
 .footer-subscription-heading {
-    margin-bottom: 24px;
-    font-size: 24px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
 }
 
 .footer-subscription-text {
-    margin-bottom: 24px;
-    font-size: 20px;
+    margin-bottom: 30px;
+    font-size: 14px;
+    text-align: left;
+    text-indent: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.5;
 }
 
 .footer-input {
@@ -56,12 +73,14 @@
 
 .footer-link-items span {
     display: grid;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     grid-template-columns: repeat(2, auto);
     margin: 10px;
     font-size: 14px;
     text-align: left;
     width: 50vh;
     box-sizing: border-box;
+    line-height: 1.5;
 }
 
 .footer-link-items h2 {
@@ -125,7 +144,7 @@
 .social-logo {
     color: rgb(16, 2, 2);
     justify-self: start;
-    margin-left: 20px;
+    margin-left: -120px;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -137,6 +156,9 @@
 .website-rights {
     color: rgb(16, 2, 2);
     margin-bottom: 16px;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 @media screen and (max-width: 820px) {
