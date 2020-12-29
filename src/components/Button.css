@@ -25,9 +25,10 @@
 }
 
 .btn--medium {
-    padding: 8px 20px;
-    font-size: 18px;
-    transform: translate(-15px, 0px);
+    padding: 8px 10px;
+    font-size: 1rem;
+    transform: translate(-28px, 0px);
+    border: none;
 }
 
 .btn--large {

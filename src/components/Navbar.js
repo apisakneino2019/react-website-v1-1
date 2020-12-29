@@ -38,7 +38,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                Home
+                หน้าแรก
               </Link>
             </li>
             <li className="nav-item">
@@ -47,7 +47,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Services
+                ผลงานของเรา
               </Link>
             </li>
             <li className="nav-item">
@@ -56,7 +56,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                AboutUs
+                เกี่ยวกับเรา
               </Link>
             </li>
 
@@ -66,13 +66,13 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                Products
+                สินค้าและบริการ
               </Link>
             </li>
 
             <li className="nav-item">
               <Link to="/test" className="nav-links" onClick={closeMobileMenu}>
-                All Products
+                แนะนำสินค้า
               </Link>
             </li>
 
@@ -82,11 +82,13 @@ function Navbar() {
                 className="nav-links-mobile"
                 onClick={closeMobileMenu}
               >
-                About US
+                ...
               </Link>
             </li>
           </ul>
-          {button && <Button buttonStyle="btn--outline">About Products</Button>}
+          {button && (
+            <Button buttonStyle="btn--outline">ระบบสัญญาณเตือนไฟไหม้</Button>
+          )}
         </div>
       </nav>
     </>
