@@ -10,35 +10,35 @@ function Cards() {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images-all/dev-1.jpg"
+              src="/img-960px/an1.png"
               text="Explore the hidden waterfall deep inside Jungle"
-              label="Adventure"
+              label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
             <CardItem
-              src="/images-all/panels-1.png"
-              text="Travel through the Islands of Bali in a Private Cruise"
-              label="Luxury"
+              src="/img-960px/dev1.png"
+              text="Travel through the Islands of Bali "
+              label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images-all/dev-1.jpg"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted Waters"
-              label="Mystery"
+              src="/img-960px/an1.png"
+              text="Set Sail in the Atlantic Ocean visiting Uncharted "
+              label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
             <CardItem
-              src="images-all/dev-1.jpg"
+              src="/img-960px/heat1.png"
               text="Experience Football on Top of the Himilayan Mountains"
-              label="Adventure"
+              label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
             <CardItem
-              src="images-all/dev-1.jpg"
-              text="Ride through the Sahara Desert on a guided camel tour"
-              label="Adrenaline"
+              src="/img-960px/panels1.png"
+              text="Fire Alarm Control Panels"
+              label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
           </ul>
