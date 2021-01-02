@@ -5,19 +5,25 @@ import CardItem from "./CardItem";
 function Cards() {
   return (
     <div className="cards">
-      <h1>Check out these EPIC Destinations!</h1>
+      <h1>2021 Fire Alarms Products Catalog!</h1>
       <div className="cards__container">
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
+              src="/img-960px/an1.png" 
+              text="Fire Alarm Control Panels"
+              label="เรียนรู้เพิ่มเติม"
+              path="/test"
+            />
+             <CardItem
               src="/img-960px/an1.png"
-              text="Explore the hidden waterfall deep inside Jungle"
+              text="Fire Alarm Annunciators"
               label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
             <CardItem
               src="/img-960px/dev1.png"
-              text="Travel through the Islands of Bali "
+              text="Notification Devices"
               label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
@@ -25,19 +31,19 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="/img-960px/an1.png"
-              text="Set Sail in the Atlantic Ocean visiting Uncharted "
+              text="Heat & Smoke Detectors"
               label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
             <CardItem
               src="/img-960px/heat1.png"
-              text="Experience Football on Top of the Himilayan Mountains"
+              text="Fire Alarm Manual Stations"
               label="เรียนรู้เพิ่มเติม"
               path="/test"
             />
             <CardItem
               src="/img-960px/panels1.png"
-              text="Fire Alarm Control Panels"
+              text="Fire Alarm Modules"
               label="เรียนรู้เพิ่มเติม"
               path="/test"
             />

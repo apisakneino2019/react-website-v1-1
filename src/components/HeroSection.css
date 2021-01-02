@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-    background: url('/img-960px/wall1.png') center center/cover no-repeat;
+    background: url('/img-960px/wall.png') center center/cover no-repeat;
     height: 100vh;
     width: auto;
     display: flex;
@@ -18,10 +18,7 @@ video {
     object-fit: contain;
 }
 
-video {
-    height: 100vh;
-    width: auto;
-}
+
 
 .hero-container>h1 {
     color: rgb(255, 255, 255);

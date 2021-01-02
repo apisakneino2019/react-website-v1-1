@@ -5,6 +5,8 @@
     justify-content: center;
     align-items: center;
     font-size: 1rem;
+    font-weight: bold;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     position: sticky;
     top: 0;
     z-index: 999;

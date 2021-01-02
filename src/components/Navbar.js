@@ -87,7 +87,7 @@ function Navbar() {
             </li>
           </ul>
           {button && (
-            <Button buttonStyle="btn--outline">ระบบเตือนไฟไหม้</Button>
+            <Button buttonStyle="btn--outline"></Button>
           )}
         </div>
       </nav>
