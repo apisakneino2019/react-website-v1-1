@@ -1,4 +1,4 @@
-video {
+Video {
     object-fit: cover;
     width: 100%;
     height: 100%;
@@ -7,7 +7,7 @@ video {
 }
 
 .hero-container {
-    background: url('/img-960px/wall.png') center center/cover no-repeat;
+    /* background: url('/img-v1/firet.jpg') center center/cover no-repeat; */
     height: 100vh;
     width: auto;
     display: flex;
@@ -18,18 +18,18 @@ video {
     object-fit: contain;
 }
 
-
-
-.hero-container>h1 {
-    color: rgb(255, 255, 255);
-    font-size: 100px;
+.img-home>h1 {
+    color: azure;
+    font-size: 65px;
+    text-align: center;
     margin-top: -100px;
 }
 
-.hero-container>p {
-    margin-top: 8px;
-    color: rgb(255, 255, 255);
-    font-size: 32px;
+.img-home>p {
+    margin-top: 40px;
+    color: azure;
+    font-size: 35px;
+    text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 

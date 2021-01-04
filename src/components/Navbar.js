@@ -29,7 +29,8 @@ function Navbar() {
       <nav className="navbar">
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img src="/images/logo.png" alt="" width="" height="" /> ALL WEB
+            <img src="/img-v1/logoone.png" alt="" width="" height="" />{" "}
+            ออลล์เว็บ เทคโนโลยี่
             {/* <i class='fab fa-typo3' /> */}
           </Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -86,9 +87,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
-          {button && (
-            <Button buttonStyle="btn--outline"></Button>
-          )}
+          {button && <Button buttonStyle="btn--outline"></Button>}
         </div>
       </nav>
     </>
