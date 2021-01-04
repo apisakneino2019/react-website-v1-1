@@ -125,3 +125,14 @@
     padding-right: 80%;
     background-color: rgb(255, 255, 255);
 }
+
+.data-text {
+    text-align: left;
+    text-indent: 10%;
+    color: rgb(0, 0, 0);
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}

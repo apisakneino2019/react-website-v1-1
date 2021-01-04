@@ -6,13 +6,12 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      <h1>about</h1>
       <section className="footer-subscription">
         <img
           src="/images-all/logo-1.png"
           alt="logo"
           height="auto"
-          width="25%"
+          width="35%"
         />
         <p className="footer-subscription-heading">
           มากกว่าสิบปี ที่ ออลล์เว็บ เทคโนโลยี่
