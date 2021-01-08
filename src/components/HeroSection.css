@@ -6,6 +6,24 @@ Video {
     z-index: -1;
 }
 
+.hero-img-container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.img-grid {
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(4, 3fr);
+    text-align: center;
+    transform: translate(10px, 70px);
+}
+
+.img-grid img {
+    padding-right: 10px;
+    border-radius: 40px;
+}
+
 .hero-container {
     /* background: url('/img-v1/firet.jpg') center center/cover no-repeat; */
     height: 100vh;
@@ -27,8 +45,9 @@ Video {
 
 .img-home>p {
     margin-top: 40px;
+    margin: 20px;
     color: azure;
-    font-size: 35px;
+    font-size: 28px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }

@@ -11,9 +11,43 @@ function HeroSection() {
       </video>
 
       <div className="img-home">
-        {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}{" "}
-        <h1>ระบบ Fire Alarm ในอาคารช่วยอะไรได้บ้าง</h1>
-        <p>ทำไมคุณถึงควรติดตั้งระบบ Fire Alarm ในอาคาร</p>
+        {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
+        <h1>มองหา ระบบ Fire Alarm เราช่วยคุณได้ </h1>
+        <p>
+          อุปกรณ์แจ้งสัญญาณ ระบบแจ้งเหตุเพลิงไหม้ ตู้ควบคุมแจ้งเหตุเพลิงไหม้
+          <br />
+          อุปกรณ์ตรวจจับสัญญาณ อุปกรณ์แจ้งสัญญาณ รับประกอบตู้กราฟฟิกและตู้โมดูล
+        </p>
+        <div className="hero-img-container">
+          <div className="img-grid">
+            <>
+              <img
+                src="/img-960px/alarmfire.png"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+              <img
+                src="/img-960px/alarmfire1.png"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+              <img
+                src="/img-960px/alarmfire2.png"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+              <img
+                src="/img-960px/alarmfire3.png"
+                alt=""
+                width="100%"
+                height="auto"
+              />
+            </>
+          </div>
+        </div>
       </div>
     </div>
   );

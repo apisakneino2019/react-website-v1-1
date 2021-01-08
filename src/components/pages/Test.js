@@ -2,6 +2,7 @@ import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
 import { Link } from "react-router-dom";
+import ScrollToTop from "react-scroll-up";
 
 function Test() {
   return (
@@ -28,7 +29,7 @@ function Test() {
                 ตู้ดับเพลิง หรือตัดสินใจอพยพออกจากตัวอาคารตามทางหนีไฟ
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">Readmore </button>
+                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
                   </Link>
                 </div>
               </div>
@@ -40,7 +41,7 @@ function Test() {
                 ระบบไฟอลาม
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">Readmore </button>
+                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
                   </Link>
                 </div>
               </div>
@@ -51,7 +52,7 @@ function Test() {
                 ระบบไฟอลาม
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">Readmore </button>
+                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
                   </Link>
                 </div>
               </div>
@@ -62,7 +63,7 @@ function Test() {
                 ระบบไฟอลาม
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">Readmore </button>
+                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
                   </Link>
                 </div>
               </div>
@@ -73,7 +74,7 @@ function Test() {
                 ระบบไฟอลาม
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">Readmore </button>
+                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
                   </Link>
                 </div>
               </div>
@@ -84,7 +85,7 @@ function Test() {
                 ระบบไฟอลาม
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">Readmore </button>
+                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
                   </Link>
                 </div>
               </div>
@@ -92,6 +93,11 @@ function Test() {
           </div>
         </div>
       </div>
+      <ScrollToTop showUnder={160}>
+        <span>
+          <img src="/img-960px/up_arrow_round.png" alt="" />
+        </span>
+      </ScrollToTop>
       <Footer />
     </div>
   );

@@ -29,18 +29,14 @@ function Cards() {
               label="แผงควบคุมสัญญาณเตือนไฟไหม้"
               path="/test"
             />
-            <div>
-              <h5>โมดูลสัญ</h5>
-            </div>
+
             <CardItem
               src="/img-v1/annunciators.jpg"
               text="เพิ่มเติม"
               label="เครื่องแจ้งเตือนไฟไหม้"
               path="/test"
             />
-            <div>
-              <h5>โมดูลสัญ</h5>
-            </div>
+
             <CardItem
               src="/img-v1/devices.jpg"
               text="เพิ่มเติม"
@@ -48,6 +44,10 @@ function Cards() {
               path="/test"
             />
           </ul>
+        </div>
+
+        <div className="cards__wrapper">
+          <ul className="cards__items"></ul>
           <ul className="cards__items">
             <CardItem
               src="/img-v1/heatsmoke.jpg"
@@ -55,18 +55,14 @@ function Cards() {
               label="เครื่องตรวจจับความร้อนและควัน"
               path="/test"
             />
-            <div>
-              <h5>โมดูลสัญ</h5>
-            </div>
+
             <CardItem
               src="/img-v1/manual.jpg"
               text="เพิ่มเติม"
               label="คู่มือการแจ้งเหตุเพลิงไหม้สถานี"
               path="/test"
             />
-            <div>
-              <h5>โมดูลสัญ</h5>
-            </div>
+
             <CardItem
               src="/img-v1/modules.jpg"
               text="เพิ่มเติม"

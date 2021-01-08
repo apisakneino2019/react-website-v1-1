@@ -16,12 +16,8 @@
     background-color: rgb(255, 255, 255);
 }
 
-
-/* .text h1 {
-    margin: 10px;
-    color: black;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.containers span {
+    /* background-color: rgb(158, 216, 243); */
     font-weight: bold;
-    font-size: 1em;
-    
-} */
+    padding: 0 25%;
+}

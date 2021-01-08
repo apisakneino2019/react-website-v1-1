@@ -18,7 +18,8 @@
 }
 
 .services {
-    background-image: url('/images-notifier/coming-soon.jpg');
+    /* background-image: url('/images-notifier/coming-soon.jpg'); */
+    background-color: rgb(208, 172, 160);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;

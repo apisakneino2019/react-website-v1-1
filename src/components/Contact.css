@@ -1,0 +1,19 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.contact-containers {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.containers-item {
+    width: 1140px;
+    display: grid;
+    grid-template-columns: repeat(2, 0.5fr);
+    text-align: left;
+    padding: 30px;
+    margin: 20px;
+}

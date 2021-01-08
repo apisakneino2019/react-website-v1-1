@@ -6,7 +6,7 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      <section className="footer-subscription">
+      {/* <section className="footer-subscription">
         <img
           src="/images-all/logo-1.png"
           alt="logo"
@@ -51,7 +51,7 @@ function Footer() {
           Management Software, Key Components, IT Outsource, Sub-Contractor, MA,
           PM, etc.
         </p>
-      </section>
+      </section> */}
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-container">
@@ -130,8 +130,12 @@ function Footer() {
                   tabIndex={0}
                 />
                 <div className="map">
-                  {" "}
-                  <img src="/images-notifier/map.jpg" alt="map" />
+                  <img
+                    src="/images-notifier/map.jpg"
+                    alt="map"
+                    width="100%"
+                    height="auto"
+                  />
                 </div>
               </div>
             </div>

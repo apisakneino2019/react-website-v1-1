@@ -48,7 +48,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                ผลงานของเรา
+                ติดต่อฝ่ายขาย
               </Link>
             </li>
             <li className="nav-item">
@@ -67,13 +67,13 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                สินค้าและบริการ
+                อุปกรณ์เตือนไฟไหม้ทั้งหมด
               </Link>
             </li>
 
             <li className="nav-item">
               <Link to="/test" className="nav-links" onClick={closeMobileMenu}>
-                แนะนำสินค้า
+                แนะนำอุปกรณ์เตือนไฟไหม้
               </Link>
             </li>
 
