@@ -2,11 +2,23 @@ import React from "react";
 import "../../Products.css";
 import Footer from "../Footer";
 import ScrollToTop from "react-scroll-up";
+import { Link } from "react-router-dom";
 
 export default function Products() {
   return (
     <div className="area">
       <div className="containers">
+        <>
+          <div className="btn">
+            <Link to="/services">
+              <button className="btn-2">ติดต่อฝ่ายขาย </button>
+            </Link>
+            <Link to="/test">
+              <button className="btn-2">ข้อมูลอุปกรณ์ </button>
+            </Link>
+          </div>
+        </>
+
         <div className="item-container">
           <div className="img">
             <img src="images-notifier\coming-soon-1.jpg" alt="1" />

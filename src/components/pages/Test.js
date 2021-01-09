@@ -1,6 +1,11 @@
 import React from "react";
 import "../../App.css";
-import Footer from "../Footer";
+// import Footer from "../Footer";
+import Annunciator from "./Annunciator";
+import Devices from "./Devices";
+import Heatdetectors from "./Heatdetectors";
+import Manualpullstation from "./Manualpullstation";
+import Firealarmmodules from "./Firealarmmodules";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
 
@@ -10,35 +15,29 @@ function Test() {
       <div className="container">
         <div className="grid">
           <div className="item">
+            {/* ชุดที่1 */}
             <div className="img">
-              <img src="/img-v1/annunciators.jpg" alt />
+              <img
+                className="data-img"
+                src="/img-v1/alarmfire-1.png"
+                alt="control "
+              />
               <div className="data-text">
-                ทฤษฎีที่แสดงให้เห็นถึงพฤติกรรมทั่วไปของมนุษย์เมื่อตกอยู่ในสถานะการณ์ที่มีเหตุเพลิงไหม้
-                ขั้นการรับรู้
-                เป็นขั้นตอนสำคัญที่สุดเพื่อให้ผู้ที่อยู่ในอาคารสามารถรับรู้ได้ว่ากำลังเกิดเพลิงไหม้ในอาคาร
-                ถ้าไม่มีระบบ Fire Alarm จะทำให้พวกเขารู้ตัวได้ช้า
-                ซึ่งเสี่ยงต่อการเกิดอันตรายต่อชีวิตได้ ขั้นการประเมินสถานะการณ์
-                เป็นขั้นตอนที่จะประเมินความเสี่ยงถึงความรุนแรงของเพลิงไหม้ในอาคาร
-                เช่น การค้นหาต้นเพลิง
-                หรือการมองออกไปด้านนอกอาคารเพื่อดูว่ามีควันไฟจำนวนมากหรือไม่
-                ขั้นตอนการตัดสินใจ
-                เมื่อพบต้นเพลิงแล้วพวกเขามีความสามารถในการดับไฟหรือไม่
-                หรือควรรีบอพยพออกจากอาคารเนื่องจากเพลิงลุกไหม้เกินการควบคุมด้วยตนเอง
-                ขั้นลงมือทำ หลังจากการตัดสินใจแล้วว่าจะดับต้นเพลิงด้วยตนเอง
-                ก็เริ่มมองหาอุปกรณ์ดับเพลิงใกล้ตัว เช่น ถังฉีดน้ำดับเพลิง
-                ตู้ดับเพลิง หรือตัดสินใจอพยพออกจากตัวอาคารตามทางหนีไฟ
-                <div className="btn">
-                  <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
-                  </Link>
-                </div>
-              </div>
-            </div>
+                <h3>แผงควบคุมสัญญาณเตือนไฟไหม้ FireWatcher 106S </h3>
+                <br />
+                <p>
+                  {" "}
+                  <li>แผงควบคุมสัญญาณเตือนไฟไหม้อัจฉริยะแอดเดรส</li>
+                  <li>ออกแบบมาสำหรับสิ่งอำนวยความสะดวกขนาดเล็ก</li>
+                  <li>
+                    เหมาะสำหรับการตรวจจับและแจ้งเตือนอัคคีภัยทั้งในเชิงพาณิชย์สถาบันและอุตสาหกรรมใหม่และติดตั้งเพิ่มเติม
+                  </li>
+                  <li>
+                    สามารถรองรับยูนิตลูปแอดเดรส 1 ชุดและอุปกรณ์แอดเดรส / จุด 252
+                    รายการ
+                  </li>
+                </p>
 
-            <div className="img">
-              <img src="images-notifier\coming-soon-1.jpg" alt />
-              <div className="text">
-                ระบบไฟอลาม
                 <div className="btn">
                   <Link to="/products">
                     <button className="btn-1">อุปกรณ์ทั้งหมด </button>
@@ -46,10 +45,28 @@ function Test() {
                 </div>
               </div>
             </div>
+            {/* ชุดที่2 */}
             <div className="img">
-              <img src="images-notifier\coming-soon-1.jpg" alt />
-              <div className="text">
-                ระบบไฟอลาม
+              <img
+                className="data-img"
+                src="/img-v1/alarmfire-2.png"
+                alt="control "
+              />
+              <div className="data-text">
+                <h3>FireWatcher 106 แผงควบคุมสัญญาณเตือนไฟไหม้ FW106</h3>
+                <br />
+                <p>
+                  <li>แผงควบคุมสัญญาณเตือนไฟไหม้อัจฉริยะแอดเดรส</li>
+                  <li>ออกแบบมาสำหรับสิ่งอำนวยความสะดวกขนาดเล็กถึงขนาดกลาง</li>
+                  <li>
+                    เหมาะสำหรับการตรวจจับและแจ้งเตือนอัคคีภัยทั้งในเชิงพาณิชย์สถาบันและอุตสาหกรรมใหม่และติดตั้งเพิ่มเติม
+                  </li>
+                  <li>
+                    สามารถรองรับวงจรลูปแอดเดรสได้ 4 ตัวและอุปกรณ์แอดเดรสได้
+                    1,008 ชิ้น / จุด
+                  </li>
+                </p>
+
                 <div className="btn">
                   <Link to="/products">
                     <button className="btn-1">อุปกรณ์ทั้งหมด </button>
@@ -57,32 +74,28 @@ function Test() {
                 </div>
               </div>
             </div>
+            {/* ชุดที่ 3 */}
             <div className="img">
-              <img src="images-notifier\coming-soon-1.jpg" alt />
-              <div className="text">
-                ระบบไฟอลาม
-                <div className="btn">
-                  <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="img">
-              <img src="images-notifier\coming-soon-1.jpg" alt />
-              <div className="text">
-                ระบบไฟอลาม
-                <div className="btn">
-                  <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="img">
-              <img src="images-notifier\coming-soon-1.jpg" alt />
-              <div className="text">
-                ระบบไฟอลาม
+              <img
+                className="data-img"
+                src="/img-v1/alarmfire-3.png"
+                alt="control "
+              />
+              <div className="data-text">
+                <h3>หน่วยเครือข่ายภายนอก FW357A</h3>
+                <br />
+                <p>
+                  <li>
+                    เครื่องนี้มีขั้ว CAN
+                    บัสสองขั้วเพื่อสื่อสารกับแผงควบคุมและตัวแจ้งเตือน
+                  </li>
+                  <li>
+                    เป็นไปตามมาตรฐาน UL864 10th Edition และมาตรฐาน ULC-S527 3rd
+                    Edition
+                  </li>
+                  <li>มีทั้งการเดินสาย Class X และ Class B</li>
+                  <li>องรับการตั้งค่าที่แตกต่างกันสองแบบ</li>
+                </p>
                 <div className="btn">
                   <Link to="/products">
                     <button className="btn-1">อุปกรณ์ทั้งหมด </button>
@@ -91,6 +104,11 @@ function Test() {
               </div>
             </div>
           </div>
+          <Annunciator />
+          <Devices />
+          <Heatdetectors />
+          <Manualpullstation />
+          <Firealarmmodules />
         </div>
       </div>
       <ScrollToTop showUnder={160}>
@@ -98,7 +116,7 @@ function Test() {
           <img src="/img-960px/up_arrow_round.png" alt="" />
         </span>
       </ScrollToTop>
-      <Footer />
+      {/* <Footer /> */}
     </div>
   );
 }

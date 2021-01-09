@@ -22,6 +22,7 @@ Video {
 .img-grid img {
     padding-right: 10px;
     border-radius: 40px;
+    transform: translate(-5px, -70px);
 }
 
 .hero-container {

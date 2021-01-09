@@ -67,17 +67,17 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                อุปกรณ์เตือนไฟไหม้ทั้งหมด
+                อุปกรณ์ทั้งหมด
               </Link>
             </li>
 
             <li className="nav-item">
               <Link to="/test" className="nav-links" onClick={closeMobileMenu}>
-                แนะนำอุปกรณ์เตือนไฟไหม้
+                แนะนำและข้อมูลอุปกรณ์
               </Link>
             </li>
 
-            <li>
+            {/* <li>
               <Link
                 to="/sign-up"
                 className="nav-links-mobile"
@@ -85,9 +85,9 @@ function Navbar() {
               >
                 ...
               </Link>
-            </li>
+            </li> */}
           </ul>
-          {button && <Button buttonStyle="btn--outline"></Button>}
+          {/* {button && <Button buttonStyle="btn--outline"></Button>} */}
         </div>
       </nav>
     </>

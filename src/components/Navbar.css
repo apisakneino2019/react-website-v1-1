@@ -172,3 +172,23 @@
         display: inline-block;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-250%, 25%);
+        font-size: 1.2rem;
+    }
+}
+
+@media screen and (max-width: 414px) {
+    .navbar-logo {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(-250%, 25%);
+        font-size: 1.2rem;
+    }
+}

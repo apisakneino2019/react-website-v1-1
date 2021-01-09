@@ -8,13 +8,19 @@ import AboutUs from "./components/pages/AboutUs";
 import Products from "./components/pages/Products";
 import SignUp from "./components/pages/SignUp";
 import Test from "./components/pages/Test";
-
+import Annunciator from "./components/pages/Annunciator";
+import Controlpanels from "./components/pages/Controlpanels";
+import Devices from "./components/pages/Devices";
+import Heatdetectors from "./components/pages/Heatdetectors";
+import Manualpullstation from "./components/pages/Manualpullstation";
+import Firealarmmodules from "./components/pages/Firealarmmodules";
+import Scrolltop from "./Scrolltop";
 function App() {
   return (
     <>
+      {" "}
       <Router>
         <Navbar />
-
         <Switch>
           <Route path="/" exact component={Home} />
           <Route path="/services" component={Services} />
@@ -22,7 +28,14 @@ function App() {
           <Route path="/products" component={Products} />
           <Route path="/sign-up" component={SignUp} />
           <Route path="/test" component={Test} />
-        </Switch>
+          <Route path="/Annunciator" component={Annunciator} />
+          <Route path="/Controlpanels" component={Controlpanels} />
+          <Route path="/Devices" component={Devices} />
+          <Route path="/Heatdetectors" component={Heatdetectors} />
+          <Route path="/Manualpullstation" component={Manualpullstation} />
+          <Route path="/Firealarmmodules" component={Firealarmmodules} />
+        </Switch>{" "}
+        <Scrolltop />
       </Router>
     </>
   );
