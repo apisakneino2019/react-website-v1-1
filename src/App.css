@@ -19,7 +19,7 @@
 
 .services {
     /* background-image: url('/images-notifier/coming-soon.jpg'); */
-    background-color: rgb(208, 172, 160);
+    background-color: rgb(255, 255, 255);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -116,8 +116,8 @@
 } */
 
 .area {
-    background-color: rgb(163, 78, 78);
-    background-image: linear-gradient(rgb(242, 242, 242), rgb(9, 170, 245));
+    background-color: rgb(255, 255, 255);
+    background-image: linear-gradient(rgb(255, 255, 255), rgb(9, 170, 245));
 }
 
 .btn btn-1 {
@@ -140,7 +140,7 @@
 }
 
 .btn-2 {
-    color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
     display: inline-block;
     padding: 15px 25px;
     font-size: 1rem;
@@ -148,18 +148,18 @@
     text-align: center;
     text-decoration: none;
     outline: none;
-    background-color: #ddff00;
+    background-color: #470a63;
     border: none;
     border-radius: 15px;
-    box-shadow: 0 9px #999;
+    box-shadow: 0 9px #4c3ab8;
 }
 
 .btn-2:hover {
-    background-color: #b1dc15
+    background-color: #000000
 }
 
 .btn-2:active {
-    background-color: #f2ff00;
+    background-color: #f80909;
     box-shadow: 0 5px rgb(0, 191, 255);
     transform: translateY(4px);
 }

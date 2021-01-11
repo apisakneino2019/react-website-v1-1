@@ -152,46 +152,41 @@ function Footer() {
           </div>
           <small class="website-rights">Allweb © 2020</small>
           <div class="social-icons">
-            <Link
-              class="social-icon-link facebook"
-              to="/test"
+            <a
               target="_blank"
+              href="https://www.facebook.com/allwebtechnology/"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f" />
-            </Link>
-            <Link
-              class="social-icon-link instagram"
-              to="/test"
+              <i class="fab fa-facebook-f fa-spin fa-3x" />
+            </a>
+            <a
               target="_blank"
-              aria-label="Instagram"
+              href="https://line.me/R/ti/p/%40hua8211q"
+              aria-label="line"
             >
-              <i class="fab fa-instagram" />
-            </Link>
-            <Link
-              class="social-icon-link youtube"
-              to="/test"
+              <i class="fab fa-line fa-spin fa-3x" />
+            </a>
+            <a
               target="_blank"
-              aria-label="Youtube"
+              href="https://allweb.co.th/"
+              aria-label="mainwebsite"
             >
-              <i class="fab fa-youtube" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/test"
+              <i class="fa fa-globe fa-spin fa-3x " aria-hidden="true"></i>
+            </a>
+            <a
               target="_blank"
-              aria-label="Twitter"
+              href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies"
+              aria-label="Facebook"
             >
               <i class="fab fa-twitter" />
-            </Link>
-            <Link
-              class="social-icon-link twitter"
-              to="/test"
+            </a>
+            <a
               target="_blank"
-              aria-label="LinkedIn"
+              href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies"
+              aria-label="Facebook"
             >
               <i class="fab fa-linkedin" />
-            </Link>
+            </a>
           </div>
         </div>
       </section>

@@ -27,7 +27,7 @@
     margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: bold;
     display: flex;
     align-items: center;
@@ -35,9 +35,15 @@
     transform: translate(-270%, 0);
 }
 
-.fa-typo3 {
-    margin-left: 0.5rem;
-    font-size: 1.8rem;
+.nav-menu:hover {
+    font-size: 1rem;
+}
+
+.nav-links:hover {
+    background-color: rgb(3, 19, 255);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    font-size: 1.2rem;
 }
 
 .nav-menu {
@@ -97,6 +103,11 @@
     .NavbarItems {
         position: relative;
     }
+    .img-grid img {
+        padding-right: 10px;
+        border-radius: 40px;
+        transform: translate(-5px, -70px);
+    }
     .nav-menu {
         display: flex;
         flex-direction: column;
@@ -107,6 +118,7 @@
         left: -100%;
         opacity: 1;
         transition: all 0.5s ease;
+        background-color: aqua;
     }
     .nav-menu.active {
         background: #242222;
@@ -122,6 +134,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
+        background-color: aqua;
     }
     .nav-links:hover {
         background-color: #fff;
