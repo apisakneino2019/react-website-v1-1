@@ -84,14 +84,15 @@
 .img img {
     width: 100%;
     height: auto;
-    padding: 15px;
-    border-radius: 20%;
+    padding: 3px;
+    border: 3px solid #F3E3D9;
+    background-color: rgb(211, 23, 23);
 }
 
 .img .data-img {
     width: 80%;
     height: auto;
-    padding: 15px;
+    padding: 3px;
     border-radius: 20%;
 }
 
@@ -188,4 +189,18 @@
     margin-left: 10px;
     margin-right: 10px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.ContainerDemand {
+    max-width: 1140px;
+    margin: 0 auto;
+    background: #001eff;
+}
+
+.Demand-first h1 {
+    border: double;
+    font-family: sans-serif;
+    background-color: rgb(211, 23, 23);
+    color: whitesmoke;
+    padding: 10px 50px;
 }

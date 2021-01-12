@@ -15,7 +15,7 @@ import Heatdetectors from "./components/pages/Heatdetectors";
 import Manualpullstation from "./components/pages/Manualpullstation";
 import Firealarmmodules from "./components/pages/Firealarmmodules";
 import Productstest from "./components/pages/Productstest";
-import Testhover from "./components/Testhover";
+
 import Scrolltop from "./Scrolltop";
 function App() {
   return (
@@ -37,7 +37,6 @@ function App() {
           <Route path="/Manualpullstation" component={Manualpullstation} />
           <Route path="/Firealarmmodules" component={Firealarmmodules} />
           <Route path="/Productstest" component={Productstest} />
-          <Route path="/Testhover" component={Testhover} />
         </Switch>{" "}
         <Scrolltop />
       </Router>

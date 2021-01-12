@@ -6,52 +6,6 @@ import { Link } from "react-router-dom";
 function Footer() {
   return (
     <div className="footer-container">
-      {/* <section className="footer-subscription">
-        <img
-          src="/images-all/logo-1.png"
-          alt="logo"
-          height="auto"
-          width="35%"
-        />
-        <p className="footer-subscription-heading">
-          มากกว่าสิบปี ที่ ออลล์เว็บ เทคโนโลยี่
-          ได้บริหารและพัฒนาระบบงานอย่างต่อเนื่องเพื่อมุ่งมั่นพัฒนาสินค้าและงานบริการของเราอย่างสร้างสรรค์
-          พร้อมกับตอบสนองความต้องการของลูกค้าต่อไป
-          โดยเราได้รับความไว้วางใจจากลูกค้า ต้องอาศัยหลักการทำงานที่ว่า
-          “ความซื่อสัตย์ คือ คุณธรรมของเรา” นี่เป็นบทพิสูจน์ได้ว่า ออลล์เว็บ
-          เทคโนโลยี่
-          จะอยู่เคียงข้างคุณในด้านผู้ให้บริการอย่างมีคุณภาพตราบนานเท่านาน
-          ออลล์เว็บ เทคโนโลยี่
-          ได้ให้บริการดูแลระบบงานสารสนเทศของสำนักงานทั้งหมดแบบครบวงจร อาทิเช่น
-          ออกแบบสร้างเว็บไซต์ ด้วยการดีไซน์ที่สวยงาม ทันสมัยและน่าเชื่อถือ
-          เหมาะกับทุกท่านที่อยากมีเว็บไซต์เป็นของตัวเอง สามารถนำเว็บไซต์ของท่าน
-          ไปใช้ประโยชน์ได้ในหลายรูปแบบ
-          เราพร้อมจะนำพาธุรกิจของท่านไปสู่โลกของพาณิชย์อิเล็คทรอนิกส์
-          ขอเพียงความไว้วางใจให้เราเป็นผู้ให้บริการ,ผู้ให้คำปรึกษา,ผู้ออกแบบ(webdesign)
-          และเป็นผู้ที่เดินเคียงข้างท่านเข้าสู่โลก world wide Marketing
-          เรามีทีมงานที่จะวิเคราะห์ความต้องการและแก้ไขปัญหาจากระบบงานเดิม,การจัดการด้าน
-          Network เพื่อเพิ่มประสิทธิภาพในการทำงานได้อย่างรวดเร็ว
-          เพิ่มเติมช่องทางการทำธุรกิจโดยการจัดทำ Search Engine Optimization หรือ
-          SEO เป็นกระบวนการพัฒนาเว็บไซต์
-          เพื่อเพิ่มประสิทธิภาพให้กับเว็บไซต์ของท่านสำหรับการค้นหาผ่าน Search
-          Engine เช่น
-          Google,Yahooโดยการใช้คีย์เวิร์ดในการค้นหาเว็บไซต์ให้ท่านได้อย่างรวดเร็ว
-          และ มีประสิทธิภาพมากยิ่งขึ้น
-        </p>
-        <p className="footer-subscription-text">
-          Total security Systems & IT Solutions, Secutech Service Center Total
-          Cards &Payments, Designs & Consulting Solutions CCTV/IP Camera &
-          Surveillance, Finger Scan, Access Control, Alarm Home & Office
-          Automation, E-Home/intelligence & Building, Security System Solution,
-          Systems & Solutions for Financial & Banking. Fire & Safety, Safety
-          Equipments, Emergency & Rescue Equipments, Police &Person Equipments
-          PABX, Fiber Optic, Wi-Fi, Network, LAN, Cabling Network, Server &
-          Storage, IT infrastructure, Systems & Equipments for IT Information.
-          Audio-Video Systems, Digital ID, POS, Barcode & RFID Solution
-          Management Software, Key Components, IT Outsource, Sub-Contractor, MA,
-          PM, etc.
-        </p>
-      </section> */}
       <div class="footer-links">
         <div className="footer-link-wrapper">
           <div className="footer-container">
@@ -157,35 +111,21 @@ function Footer() {
               href="https://www.facebook.com/allwebtechnology/"
               aria-label="Facebook"
             >
-              <i class="fab fa-facebook-f fa-spin fa-3x" />
+              <i class="fab fa-facebook-f  fa-2x" />
             </a>
             <a
               target="_blank"
               href="https://line.me/R/ti/p/%40hua8211q"
               aria-label="line"
             >
-              <i class="fab fa-line fa-spin fa-3x" />
+              <i class="fab fa-line  fa-2x" />
             </a>
             <a
               target="_blank"
               href="https://allweb.co.th/"
               aria-label="mainwebsite"
             >
-              <i class="fa fa-globe fa-spin fa-3x " aria-hidden="true"></i>
-            </a>
-            <a
-              target="_blank"
-              href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies"
-              aria-label="Facebook"
-            >
-              <i class="fab fa-twitter" />
-            </a>
-            <a
-              target="_blank"
-              href="https://meetflo.zendesk.com/hc/en-us/articles/230425728-Privacy-Policies"
-              aria-label="Facebook"
-            >
-              <i class="fab fa-linkedin" />
+              <i class="fa fa-globe fa-2x " aria-hidden="true"></i>
             </a>
           </div>
         </div>

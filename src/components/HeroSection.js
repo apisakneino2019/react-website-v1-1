@@ -12,7 +12,7 @@ function HeroSection() {
 
       <div className="img-home">
         {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
-        <h1>มองหา ระบบ Fire Alarm เราช่วยคุณได้ </h1>
+        {/* <h1>เกิดเหตุไฟไหม้ ป้องกันไฟไหม้ เราช่วยคุณได้ </h1> */}
         <p>
           อุปกรณ์แจ้งสัญญาณ ระบบแจ้งเหตุเพลิงไหม้ ตู้ควบคุมแจ้งเหตุเพลิงไหม้
           <br />
