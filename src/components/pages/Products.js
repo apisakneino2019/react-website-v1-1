@@ -204,6 +204,65 @@ export default function Products() {
   return (
     <div className="area">
       <div className="containers">
+        <Link to="/">
+          <button
+            className="btn-next-one"
+            style={{
+              padding: "5px 20px",
+              margin: "0 3px",
+            }}
+          >
+            หน้าแรก
+          </button>
+        </Link>
+        <Link to="/products">
+          <button
+            className="btn-next-one"
+            style={{
+              backgroundColor: "red",
+              color: "white",
+              padding: "5px 20px",
+              margin: "0 3px",
+            }}
+          >
+            หน้า 1/4
+          </button>
+        </Link>
+
+        <Link to="/Productstest">
+          <button
+            className="btn-next-one"
+            style={{
+              padding: "5px 20px",
+              margin: "0 3px",
+            }}
+          >
+            หน้า 2/4
+          </button>
+        </Link>
+
+        <Link to="/ProductsFrist">
+          <button
+            className="btn-next-one"
+            style={{
+              padding: "5px 20px",
+              margin: "0 3px",
+            }}
+          >
+            หน้า 3/4
+          </button>
+        </Link>
+        <Link to="/ProductsSecond">
+          <button
+            className="btn-next-one"
+            style={{
+              padding: "5px 20px",
+              margin: "0 3px",
+            }}
+          >
+            หน้า 4/4
+          </button>
+        </Link>
         <div className="item-containers">
           {datas.map(function (data, i) {
             return (
@@ -224,27 +283,7 @@ export default function Products() {
             );
           })}
 
-          <div className="btn-next-page">
-            <Link to="/">
-              <button className="btn-next-one">หน้าแรก</button>
-            </Link>
-
-            <Link to="/products">
-              <button className="btn-next-one">หน้า 1/4</button>
-            </Link>
-
-            <Link to="/Productstest">
-              <button className="btn-next-one">หน้า 2/4</button>
-            </Link>
-
-            <Link to="/">
-              <button className="btn-next-one">หน้า 3/4</button>
-            </Link>
-
-            <Link to="/">
-              <button className="btn-next-one">หน้า 4/4</button>
-            </Link>
-          </div>
+          <div className="btn-next-page"></div>
           <ScrollToTop showUnder={160}>
             <span>
               <img src="/img-960px/up_arrow_round.png" alt="" />

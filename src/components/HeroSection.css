@@ -26,11 +26,11 @@ Video {
 }
 
 .hero-container {
-    /* background: url('/img-v1/firet.jpg') center center/cover no-repeat; */
+    /* background: url('/img-v1/MixImg12.png') center center/cover no-repeat; */
     height: 100vh;
     width: auto;
-    display: flex;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2 1fr);
     justify-content: center;
     align-items: center;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.165);
@@ -38,16 +38,18 @@ Video {
 }
 
 .img-home>h1 {
-    color: azure;
-    font-size: 65px;
+    color: rgb(0, 16, 238);
+    font-size: 48px;
     text-align: center;
-    margin-top: -100px;
+    margin: 0 -60px;
 }
 
 .img-home>p {
     margin-top: 40px;
     margin: 20px;
-    color: azure;
+    font-weight: bold;
+    color: rgb(0, 16, 238);
+    background-color: rgba(205, 255, 253, 0.624);
     font-size: 28px;
     text-align: center;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -63,6 +65,16 @@ Video {
 
 .fa-play-circle {
     margin-left: 4px;
+}
+
+.dataText {
+    text-align: center;
+    font-weight: bold;
+    color: rgb(4, 0, 252);
+    background-color: rgba(205, 255, 253, 0.624);
+    font-size: 28px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 2rem 2rem;
 }
 
 @media screen and (max-width: 960px) {

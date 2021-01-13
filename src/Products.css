@@ -72,8 +72,7 @@
     transform: translate(-100px, 35px);
 }
 
-
-/* .data-two:hover {
+.data-two:hover {
     font-size: .8rem;
     text-align: left;
 }
@@ -81,13 +80,13 @@
 .data-one:hover {
     font-size: .8rem;
     text-align: left;
-} */
+}
 
 
 /* .img:hover {
     -ms-transform: scale(9);
     -webkit-transform: scale(8);
-    transform: scale(1.3);
+    transform: scale(1.2);
 } */
 
 @media screen and (max-width: 375px) {

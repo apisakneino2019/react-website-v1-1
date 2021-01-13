@@ -1,5 +1,6 @@
 import React from "react";
 import Navbar from "./components/Navbar";
+
 import "./App.css";
 import Home from "./components/pages/Home";
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
@@ -15,7 +16,8 @@ import Heatdetectors from "./components/pages/Heatdetectors";
 import Manualpullstation from "./components/pages/Manualpullstation";
 import Firealarmmodules from "./components/pages/Firealarmmodules";
 import Productstest from "./components/pages/Productstest";
-
+import ProductsFrist from "./components/pages/ProductsFrist";
+import ProductsSecond from "./components/pages/ProductsSecond";
 import Scrolltop from "./Scrolltop";
 function App() {
   return (
@@ -37,6 +39,8 @@ function App() {
           <Route path="/Manualpullstation" component={Manualpullstation} />
           <Route path="/Firealarmmodules" component={Firealarmmodules} />
           <Route path="/Productstest" component={Productstest} />
+          <Route path="/ProductsFrist" component={ProductsFrist} />
+          <Route path="/ProductsSecond" component={ProductsSecond} />
         </Switch>{" "}
         <Scrolltop />
       </Router>
