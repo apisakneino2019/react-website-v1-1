@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital@1&display=swap');
 Video {
     object-fit: cover;
     width: 100%;
@@ -26,7 +27,8 @@ Video {
 }
 
 .hero-container {
-    /* background: url('/img-v1/MixImg12.png') center center/cover no-repeat; */
+    background-color: #ff7b0036;
+    /* background: url('/img-v1/MixImg.png') center center/cover no-repeat; */
     height: 100vh;
     width: auto;
     display: grid;
@@ -38,21 +40,25 @@ Video {
 }
 
 .img-home>h1 {
-    color: rgb(0, 16, 238);
+    margin-top: 40px;
+    margin: 20px;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0, 0.337);
     font-size: 48px;
     text-align: center;
-    margin: 0 -60px;
+    font-family: 'Sarabun', 'Ilim' sans-serif;
 }
 
 .img-home>p {
     margin-top: 40px;
     margin: 20px;
     font-weight: bold;
-    color: rgb(0, 16, 238);
-    background-color: rgba(205, 255, 253, 0.624);
+    color: rgb(255, 255, 255);
+    background-color: rgb(255, 0, 0, 0.337);
     font-size: 28px;
     text-align: center;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Sarabun', 'Ilim' sans-serif;
 }
 
 .hero-btns {
@@ -65,16 +71,6 @@ Video {
 
 .fa-play-circle {
     margin-left: 4px;
-}
-
-.dataText {
-    text-align: center;
-    font-weight: bold;
-    color: rgb(4, 0, 252);
-    background-color: rgba(205, 255, 253, 0.624);
-    font-size: 28px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    margin: 2rem 2rem;
 }
 
 @media screen and (max-width: 960px) {

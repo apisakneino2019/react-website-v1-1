@@ -22,16 +22,18 @@ const responsive = {
   },
 };
 const images = [
-  "/img-v1/MixImg02.png",
-  "/img-v1/MixImg03.png",
-  "/img-v1/MixImg04.png",
-  "/img-v1/MixImg05.png",
-  "/img-v1/MixImg06.png",
-  "/img-v1/MixImg07.png",
-  "/img-v1/MixImg08.png",
-  "/img-v1/MixImg09.png",
-  "/img-v1/MixImg10.png",
-  "/img-v1/MixImg11.png",
+  // "/img-v1/MixImg02.png",
+  // "/img-v1/MixImg03.png",
+  // "/img-v1/MixImg04.png",
+  // "/img-v1/MixImg05.png",
+  // "/img-v1/MixImg06.png",
+  // "/img-v1/MixImg07.png",
+  // "/img-v1/MixImg08.png",
+  // "/img-v1/MixImg09.png",
+  // "/img-v1/MixImg10.png",
+  "/img-v1/MixImgAd.png",
+  "/img-v1/MixImgAd.png",
+  "/img-v1/MixImgAd.png",
 ];
 
 function HeroSection() {
@@ -50,10 +52,10 @@ function HeroSection() {
 
       <div className="img-home">
         {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
-        <h1>เคยไหมกับอุบัติเหตุ ที่ไม่คาดคิดแบบนี้ </h1>
+        <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1>
         <p className="dataText">
-          บ้าน โรงเรียน โรงแรม โชว์รูม โรงงาน โกดัง
-          <br />
+          "บริการให้ข้อมูลเกี่ยวกับ ด้านการแจ้งเตือนเหตุเพลิงไหม้
+          คอยรักษาความปลอดภัย"
         </p>
 
         <div className="hero-img-container">
@@ -62,19 +64,15 @@ function HeroSection() {
             partialVisbile
             itemClass="image-item"
             responsive={responsive}
-            autoPlaySpeed={3000}
+            autoPlaySpeed={1000}
             autoPlay={true}
             infinite
           >
             {sliceimg}
           </Carousel>
-          <p className="dataText">
-            อุปกรณ์แจ้งสัญญาณ ระบบแจ้งเหตุเพลิงไหม้ ตู้ควบคุมแจ้งเหตุเพลิงไหม้
-            <br />
-            อุปกรณ์ตรวจจับสัญญาณ อุปกรณ์แจ้งสัญญาณ
-            รับประกอบตู้กราฟฟิกและตู้โมดูล
-          </p>
         </div>
+
+        <p className="dataText">"บ้าน โรงเรียน โรงแรม โชว์รูม โรงงาน โกดัง"</p>
       </div>
     </div>
   );
