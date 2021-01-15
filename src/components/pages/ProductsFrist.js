@@ -184,6 +184,8 @@ export default function ProductsFrist() {
           <button
             className="btn-next-one"
             style={{
+              backgroundColor: "#ff0",
+              color: "#0000ff",
               padding: "5px 20px",
               margin: "0 3px",
             }}
@@ -195,6 +197,8 @@ export default function ProductsFrist() {
           <button
             className="btn-next-one"
             style={{
+              backgroundColor: "#ff0",
+              color: "#0000ff",
               padding: "5px 20px",
               margin: "0 3px",
             }}
@@ -207,6 +211,8 @@ export default function ProductsFrist() {
           <button
             className="btn-next-one"
             style={{
+              backgroundColor: "#ff0",
+              color: "#0000ff",
               padding: "5px 20px",
               margin: "0 3px",
             }}
@@ -223,6 +229,8 @@ export default function ProductsFrist() {
               color: "white",
               padding: "5px 20px",
               margin: "0 3px",
+
+              color: "#0000ff",
             }}
           >
             หน้า 3/4
@@ -232,6 +240,8 @@ export default function ProductsFrist() {
           <button
             className="btn-next-one"
             style={{
+              backgroundColor: "#ff0",
+              color: "#0000ff",
               padding: "5px 20px",
               margin: "0 3px",
             }}
@@ -242,10 +252,12 @@ export default function ProductsFrist() {
         <div className="item-containers">
           {datas.map(function (data, i) {
             return (
-              <div className="img">
-                <p className="datanumber">{data.id}</p>
-                <img src={data.img} alt="1" />
-                <p className="data-one">{data.title}</p>
+              <div>
+                <div className="img">
+                  <p className="datanumber">{data.id}</p>
+                  <img src={data.img} alt="1" />
+                  <p className="data-one">{data.title}</p>
+                </div>
                 <p className="data-two">{data.decrition}</p>
 
                 <>

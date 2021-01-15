@@ -82,12 +82,19 @@
     text-align: left;
 }
 
-
-/* .img:hover {
+.img:hover {
     -ms-transform: scale(9);
     -webkit-transform: scale(8);
     transform: scale(1.2);
-} */
+}
+
+@media screen and (max-width: 414px) {
+    .item-containers {
+        max-width: 960px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
 
 @media screen and (max-width: 375px) {
     .item-containers {

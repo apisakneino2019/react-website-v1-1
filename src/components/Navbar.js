@@ -48,7 +48,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                ติดต่อฝ่ายขาย
+                สินค้าและบริการ
               </Link>
             </li>
             <li className="nav-item">
@@ -57,7 +57,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                เกี่ยวกับเรา
+                ติดต่อเรา
               </Link>
             </li>
 

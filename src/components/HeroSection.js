@@ -54,8 +54,7 @@ function HeroSection() {
         {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
         <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1>
         <p className="dataText">
-          "บริการให้ข้อมูลเกี่ยวกับ ด้านการแจ้งเตือนเหตุเพลิงไหม้
-          คอยรักษาความปลอดภัย"
+          "บริการให้ข้อมูล ด้านระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย"
         </p>
 
         <div className="hero-img-container">
@@ -64,7 +63,7 @@ function HeroSection() {
             partialVisbile
             itemClass="image-item"
             responsive={responsive}
-            autoPlaySpeed={1000}
+            autoPlaySpeed={3000}
             autoPlay={true}
             infinite
           >

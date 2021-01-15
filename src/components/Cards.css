@@ -1,6 +1,9 @@
 .cards {
     padding: 4rem;
     background: rgb(255, 253, 253);
+    max-width: 1420px;
+    width: 100%;
+    margin: 0 auto;
 }
 
 h1 {

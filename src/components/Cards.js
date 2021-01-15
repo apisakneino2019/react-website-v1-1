@@ -27,21 +27,21 @@ function Cards() {
               src="/img-v1/control.jpg"
               text="เพิ่มเติม"
               label="แผงควบคุมสัญญาณเตือนไฟไหม้"
-              path="/Controlpanels"
+              path="/test"
             />
 
             <CardItem
               src="/img-v1/annunciators.jpg"
               text="เพิ่มเติม"
               label="เครื่องแจ้งเตือนไฟไหม้"
-              path="/Annunciator"
+              path="/test"
             />
 
             <CardItem
               src="/img-v1/devices.jpg"
               text="เพิ่มเติม"
               label="อุปกรณ์แจ้งเตือน"
-              path="/Devices"
+              path="/test"
             />
           </ul>
         </div>
@@ -53,21 +53,21 @@ function Cards() {
               src="/img-v1/heatsmoke.jpg"
               text="เพิ่มเติม"
               label="เครื่องตรวจจับความร้อนและควัน"
-              path="/Heatdetectors"
+              path="/test"
             />
 
             <CardItem
               src="/img-v1/manual.jpg"
               text="เพิ่มเติม"
               label="คู่มือการแจ้งเหตุเพลิงไหม้สถานี"
-              path="/Manualpullstation"
+              path="/test"
             />
 
             <CardItem
               src="/img-v1/modules.jpg"
               text="เพิ่มเติม"
               label="โมดูลสัญญาณเตือนไฟไหม้"
-              path="/Firealarmmodules"
+              path="/test"
             />
           </ul>
         </div>

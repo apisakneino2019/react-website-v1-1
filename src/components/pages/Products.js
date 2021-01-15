@@ -210,6 +210,8 @@ export default function Products() {
             style={{
               padding: "5px 20px",
               margin: "0 3px",
+              backgroundColor: "#ff0",
+              color: "#0000ff",
             }}
           >
             หน้าแรก
@@ -235,6 +237,8 @@ export default function Products() {
             style={{
               padding: "5px 20px",
               margin: "0 3px",
+              backgroundColor: "#ff0",
+              color: "#0000ff",
             }}
           >
             หน้า 2/4
@@ -247,6 +251,8 @@ export default function Products() {
             style={{
               padding: "5px 20px",
               margin: "0 3px",
+              backgroundColor: "#ff0",
+              color: "#0000ff",
             }}
           >
             หน้า 3/4
@@ -258,6 +264,8 @@ export default function Products() {
             style={{
               padding: "5px 20px",
               margin: "0 3px",
+              backgroundColor: "#ff0",
+              color: "#0000ff",
             }}
           >
             หน้า 4/4
@@ -266,9 +274,11 @@ export default function Products() {
         <div className="item-containers">
           {datas.map(function (data, i) {
             return (
-              <div className="img">
-                <p className="datanumber">{data.id}</p>
-                <img src={data.img} alt="1" />
+              <div>
+                <div className="img">
+                  <p className="datanumber">{data.id}</p>
+                  <img src={data.img} alt="1" />
+                </div>
                 <p className="data-one">{data.title}</p>
                 <p className="data-two">{data.decrition}</p>
 
