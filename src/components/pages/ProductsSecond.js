@@ -1,6 +1,7 @@
 import React from "react";
 import "../../Products.css";
 import Footer from "../Footer";
+import TopPage from "../TopPage";
 import ScrollToTop from "react-scroll-up";
 import { Link } from "react-router-dom";
 
@@ -179,6 +180,20 @@ const datas = [
 export default function ProductsSecond() {
   return (
     <div className="area">
+      <TopPage />
+      <div className="breadcrumbs">
+        <span className="showHere">คุณอยู่ที่: </span>
+        <a href="/" className="pathway">
+          หน้าแรก
+        </a>
+        <span className="showHere">
+          {" "}
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
+        </span>
+        <a href="/services" className="pathway">
+          อุปกรณ์ทั้งหมด
+        </a>
+      </div>
       <div className="containers">
         <Link to="/">
           <button

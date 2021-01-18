@@ -73,6 +73,7 @@
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     text-align: center;
+    padding: 30px;
 }
 
 .text {

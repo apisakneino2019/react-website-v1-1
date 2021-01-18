@@ -1,11 +1,13 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
+
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
 
 import ScrollToTop from "react-scroll-up";
+import TopSer from "../TopSer";
 
 const responsive = {
   desktop: {
@@ -189,34 +191,55 @@ const images = [
 export default function Services() {
   let sliceimg = images.map(function (data, i) {
     return (
-      <div style={{ margin: "0 10px" }}>
-        <img
-          src={data.img}
-          alt="ServicesDataAllweb"
-          width="100%"
-          height="auto"
-        />
-        <Link to="/AboutUs">
-          <p style={{ textAlign: "center" }}>{data.title}</p>
-        </Link>
-      </div>
+      <>
+        {" "}
+        <div style={{ margin: "0 10px" }}>
+          <img
+            src={data.img}
+            alt="ServicesDataAllweb"
+            width="100%"
+            height="auto"
+          />
+          <Link to="/AboutUs">
+            <p style={{ textAlign: "center" }}>{data.title}</p>
+          </Link>
+        </div>
+      </>
     );
   });
   return (
     <>
-      <div className="hero-img-container">
-        <div className="hero-containers" style={{ padding: "50px 50px" }}>
-          <Carousel
-            ssr
-            partialVisbile
-            itemClass="image-item"
-            responsive={responsive}
-            autoPlaySpeed={2000}
-            autoPlay={true}
-            infinite
-          >
-            {sliceimg}
-          </Carousel>
+      <div className="area">
+        <TopSer />
+
+        <div className="breadcrumbs">
+          <span className="showHere">คุณอยู่ที่: </span>
+          <a href="/" className="pathway">
+            หน้าแรก
+          </a>
+          <span className="showHere">
+            {" "}
+            <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
+          </span>
+          <a href="/services" className="pathway">
+            สินค้าและบริการ
+          </a>
+        </div>
+
+        <div className="hero-img-container">
+          <div className="hero-containers">
+            <Carousel
+              ssr
+              partialVisbile
+              itemClass="image-item"
+              responsive={responsive}
+              autoPlaySpeed={2000}
+              autoPlay={true}
+              infinite
+            >
+              {sliceimg}
+            </Carousel>
+          </div>
         </div>
       </div>
       <ScrollToTop showUnder={160}>

@@ -1,175 +1,78 @@
 import React from "react";
 import "../../Products.css";
 import Footer from "../Footer";
+import TopPage from "../TopPage";
 import ScrollToTop from "react-scroll-up";
 import { Link } from "react-router-dom";
 
 const datas = [
   {
-    id: "25",
-    img: "/img-v1/ImgTest.png",
+    id: "10",
+    img: "/img-v1/Smoke.jpg",
     alt: "1",
     title: "",
     decrition: "",
   },
 
   {
-    id: "26",
-    img: "/img-v1/ImgTest.png",
+    id: "11",
+    img: "/img-v1/GST-IFP.jpg",
     alt: "2",
     title: "",
     decrition: "",
   },
   {
-    id: "27",
-    img: "/img-v1/ImgTest.png",
+    id: "12",
+    img: "/img-v1/Notifier.jpg",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "28",
-    img: "/img-v1/ImgTest.png",
+    id: "13",
+    img: "/img-v1/Notifier-NFS.jpg",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "29",
-    img: "/img-v1/ImgTest.png",
+    id: "14",
+    img: "/img-v1/Pannal.jpg",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "30",
-    img: "/img-v1/ImgTest.png",
+    id: "15",
+    img: "/img-v1/Sensor.jpg",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "31",
-    img: "/img-v1/ImgTest.png",
+    id: "16",
+    img: "/img-v1/Buzzer.jpg",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "32",
-    img: "/img-v1/ImgTest.png",
+    id: "17",
+    img: "/img-v1/CM-FPI.jpg",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "33",
-    img: "/img-v1/ImgTest.png",
+    id: "18",
+    img: "/img-v1/CM-PBL.jpg",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "34",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "35",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "36",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "37",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "38",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "39",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "40",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "41",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "42",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "43",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "44",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "45",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "46",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "47",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "48",
-    img: "/img-v1/ImgTest.png",
+    id: "19",
+    img: "/img-v1/Firealam.jpg",
     alt: "1",
     title: "",
     decrition: "",
@@ -179,6 +82,20 @@ const datas = [
 export default function Productstest() {
   return (
     <div className="area">
+      <TopPage />
+      <div className="breadcrumbs">
+        <span className="showHere">คุณอยู่ที่: </span>
+        <a href="/" className="pathway">
+          หน้าแรก
+        </a>
+        <span className="showHere">
+          {" "}
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
+        </span>
+        <a href="/services" className="pathway">
+          อุปกรณ์ทั้งหมด
+        </a>
+      </div>
       <div className="containers">
         <Link to="/">
           <button

@@ -27,15 +27,15 @@ Video {
 }
 
 .hero-container {
-    background-color: rgba(0, 17, 255, 0.35);
-    /* background: url('/img-v1/MixImg.png') center center/cover no-repeat; */
+    /* background-color: rgb(0, 17, 255); */
+    background: url("/img-v1/MixImgAd.png") center center/cover no-repeat;
     height: 100vh;
     width: auto;
     display: grid;
     grid-template-columns: repeat(2 1fr);
     justify-content: center;
     align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.165);
+    box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.392);
     object-fit: contain;
 }
 
@@ -44,7 +44,7 @@ Video {
     margin: 20px;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0, 0.550);
+    background-color: rgba(255, 0, 0, 0);
     font-size: 48px;
     text-align: center;
     ;
@@ -56,7 +56,7 @@ Video {
     margin: 20px;
     font-weight: bold;
     color: rgb(255, 255, 255);
-    background-color: rgb(255, 0, 0, 0.550);
+    background-image: linear-gradient(to bottom right, rgb(24, 165, 221), rgb(4, 0, 255));
     font-size: 28px;
     text-align: center;
     font-family: 'Sarabun', 'Ilim' sans-serif;

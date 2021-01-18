@@ -28,9 +28,9 @@ const images = [
   // "/img-v1/MixImg05.png",
   // "/img-v1/MixImg06.png",
   // "/img-v1/MixImg07.png",
-  // "/img-v1/MixImg08.png",
-  // "/img-v1/MixImg09.png",
-  // "/img-v1/MixImg10.png",
+  "/img-v1/MixImg08.png",
+  "/img-v1/MixImg09.png",
+  "/img-v1/MixImg10.png",
   "/img-v1/MixImgAd.png",
   "/img-v1/MixImgAd.png",
   "/img-v1/MixImgAd.png",
@@ -45,6 +45,7 @@ function HeroSection() {
     );
   });
   return (
+    // <div className="area">
     <div className="hero-container">
       <video autoPlay muted loop id="myVideo">
         <source src="/video/Yellowfire.mp4" type="video/mp4" />
@@ -52,10 +53,11 @@ function HeroSection() {
 
       <div className="img-home">
         {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
-        <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1>
+        {/* <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1> */}
         <p className="dataText">
-          "บริการให้ข้อมูล ด้านระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย"
+          "ระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย "
         </p>
+        <p className="dataText">" บ้าน โรงเรียน โรงแรม โชว์รูม โรงงาน โกดัง"</p>
 
         <div className="hero-img-container">
           <Carousel
@@ -70,10 +72,9 @@ function HeroSection() {
             {sliceimg}
           </Carousel>
         </div>
-
-        <p className="dataText">"บ้าน โรงเรียน โรงแรม โชว์รูม โรงงาน โกดัง"</p>
       </div>
     </div>
+    // </div>
   );
 }
 

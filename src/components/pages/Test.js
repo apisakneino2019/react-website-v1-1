@@ -3,6 +3,7 @@ import "../../App.css";
 // import Footer from "../Footer";
 import Annunciator from "./Annunciator";
 import Devices from "./Devices";
+import GuidePage from "../GuidePage";
 import Heatdetectors from "./Heatdetectors";
 import Manualpullstation from "./Manualpullstation";
 import Firealarmmodules from "./Firealarmmodules";
@@ -12,6 +13,20 @@ import ScrollToTop from "react-scroll-up";
 function Test() {
   return (
     <div className="area">
+      <GuidePage />
+      <div className="breadcrumbs">
+        <span className="showHere">คุณอยู่ที่: </span>
+        <a href="/" className="pathway">
+          หน้าแรก
+        </a>
+        <span className="showHere">
+          {" "}
+          <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
+        </span>
+        <a href="/services" className="pathway">
+          แนะนำและข้อมูลอุปกรณ์
+        </a>
+      </div>
       <div className="container">
         <div className="grid">
           <div className="item">
