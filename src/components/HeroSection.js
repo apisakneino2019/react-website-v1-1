@@ -50,7 +50,6 @@ function HeroSection() {
       <video autoPlay muted loop id="myVideo">
         <source src="/video/Yellowfire.mp4" type="video/mp4" />
       </video>
-
       <div className="img-home">
         {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
         {/* <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1> */}
@@ -65,7 +64,7 @@ function HeroSection() {
             partialVisbile
             itemClass="image-item"
             responsive={responsive}
-            autoPlaySpeed={3000}
+            autoPlaySpeed={2000}
             autoPlay={true}
             infinite
           >
@@ -74,7 +73,6 @@ function HeroSection() {
         </div>
       </div>
     </div>
-    // </div>
   );
 }
 

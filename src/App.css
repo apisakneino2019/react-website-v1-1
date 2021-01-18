@@ -231,3 +231,42 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
 }
+
+@media screen and (max-width: 375px) {
+    .item {
+        max-width: 375px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+        padding: 15px;
+    }
+    .hero-container {
+        background-color: #d0ff0036;
+        /* background: url('/img-v1/MixImg.png') center center/cover no-repeat; */
+        height: 100vh;
+        width: auto;
+        display: grid;
+        grid-template-columns: repeat(2 1fr);
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.165);
+        object-fit: contain;
+    }
+    .data-text {
+        text-align: left;
+        text-indent: 10%;
+        color: rgb(0, 0, 0);
+        margin-top: 10px;
+        margin-bottom: 10px;
+        margin-left: 10px;
+        margin-right: 10px;
+        font-family: Verdana, Tahoma, sans-serif;
+    }
+    .nav-links {
+        text-align: center;
+        padding: 2rem;
+        width: 100%;
+        display: table;
+        background-color: aqua;
+    }
+}
