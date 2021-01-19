@@ -129,7 +129,12 @@ export default function ContactUs() {
                   {/* <p className="datanumber">{data.id}</p> */}
                   <img src={data.img} alt="1" />
                 </div>
-                <p className="data-one">{data.title}</p>
+                <a
+                  target="_blank"
+                  href="https://allweb.co.th/2019/%E0%B8%95%E0%B8%B4%E0%B8%94%E0%B8%95%E0%B9%88%E0%B8%AD%E0%B9%80%E0%B8%A3%E0%B8%B2.html"
+                >
+                  <p className="data-one">{data.title}</p>
+                </a>
 
                 <p className="data-two">{data.decrition}</p>
               </div>
