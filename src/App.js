@@ -18,6 +18,7 @@ import Firealarmmodules from "./components/pages/Firealarmmodules";
 import Productstest from "./components/pages/Productstest";
 import ProductsFrist from "./components/pages/ProductsFrist";
 import ProductsSecond from "./components/pages/ProductsSecond";
+import ContactUs from "./components/ContactUs";
 import Scrolltop from "./Scrolltop";
 function App() {
   return (
@@ -41,7 +42,8 @@ function App() {
           <Route path="/Productstest" component={Productstest} />
           <Route path="/ProductsFrist" component={ProductsFrist} />
           <Route path="/ProductsSecond" component={ProductsSecond} />
-        </Switch>{" "}
+          <Route path="/ContactUs" component={ContactUs} />
+        </Switch>
         <Scrolltop />
       </Router>
     </>

@@ -7,173 +7,74 @@ import { Link } from "react-router-dom";
 
 const datas = [
   {
-    id: "49",
-    img: "/img-v1/ImgTest.png",
-    alt: "",
-    title: "",
-    decrition: "",
-  },
-
-  {
-    id: "50",
-    img: "/img-v1/ImgTest.png",
-    alt: "2",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "51",
+    id: "20",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "52",
+    id: "21",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "53",
+    id: "22",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "54",
+    id: "23",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "55",
+    id: "24",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "56",
+    id: "25",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "57",
+    id: "26",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "58",
+    id: "27",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "59",
+    id: "28",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
   },
   {
-    id: "60",
+    id: "29",
     img: "/img-v1/ImgTest.png",
     alt: "1",
     title: "",
     decrition: "",
-  },
-  {
-    id: "61",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "62",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "63",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "64",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "65",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "66",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "67",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "68",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "69",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "",
-    decrition: "",
-  },
-  {
-    id: "70",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "     ",
-    decrition: "    ",
-  },
-  {
-    id: "71",
-    img: "/img-v1/ImgTest.png",
-    alt: "1",
-    title: "     ",
-    decrition: "        ",
-  },
-  {
-    id: "72",
-    img: "/img-v1/ImgTest.png",
-    alt: "",
-    title: "     ",
-    decrition: "        ",
   },
 ];
 
@@ -190,7 +91,7 @@ export default function ProductsFrist() {
           {" "}
           <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
         </span>
-        <a href="/services" className="pathway">
+        <a href="/products" className="pathway">
           อุปกรณ์ทั้งหมด
         </a>
       </div>
@@ -277,7 +178,7 @@ export default function ProductsFrist() {
 
                 <>
                   <div className="btn-btn">
-                    <Link to="/services">
+                    <Link to="/AboutUs">
                       <button className="btn-btn-2">ติดต่อฝ่ายขาย </button>
                     </Link>
                   </div>

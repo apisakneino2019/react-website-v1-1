@@ -22,18 +22,11 @@ const responsive = {
   },
 };
 const images = [
-  // "/img-v1/MixImg02.png",
-  // "/img-v1/MixImg03.png",
-  // "/img-v1/MixImg04.png",
-  // "/img-v1/MixImg05.png",
-  // "/img-v1/MixImg06.png",
-  // "/img-v1/MixImg07.png",
-  "/img-v1/MixImg08.png",
-  "/img-v1/MixImg09.png",
-  "/img-v1/MixImg10.png",
-  "/img-v1/MixImgAd.png",
-  "/img-v1/MixImgAd.png",
-  "/img-v1/MixImgAd.png",
+  "/images-all/fireinhome.png",
+  "/images-all/allballfirealam.png",
+  "/images-all/installfirealam.png",
+  "/images-all/installfire.png",
+  "/images-all/FireExtinguishers.png",
 ];
 
 function HeroSection() {
@@ -53,10 +46,13 @@ function HeroSection() {
       <div className="img-home">
         {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
         {/* <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1> */}
+
+        <p className="dataText">
+          " บ้าน ,โรงเรียน ,โรงแรม ,โชว์รูม ,โรงงาน ,โกดัง"
+        </p>
         <p className="dataText">
           "ระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย "
         </p>
-        <p className="dataText">" บ้าน โรงเรียน โรงแรม โชว์รูม โรงงาน โกดัง"</p>
 
         <div className="hero-img-container">
           <Carousel

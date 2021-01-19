@@ -10,7 +10,10 @@ export default function TopTitle() {
         </video>
 
         <div className="TopTitleText">
-          <h1 className="text-title"> "ไฟไหม้" เราช่วยป้องกันได้</h1>
+          <h1 className="text-title">
+            {" "}
+            เพลิงไหม้ มีสาเหตุ ! เราจะป้องกันได้อย่างไร ? ที่นี่มีคำตอบ
+          </h1>
         </div>
       </div>
       <div className="area">

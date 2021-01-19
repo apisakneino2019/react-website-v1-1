@@ -28,8 +28,8 @@ Video {
 
 .hero-container {
     /* background-color: rgb(0, 17, 255); */
-    background: url("/img-v1/MixImgAd.png") center center/cover no-repeat;
-    height: 100vh;
+    background: url("/img-v1/MixImgAd.png");
+    height: 115vh;
     width: 0 auto;
     display: grid;
     grid-template-columns: repeat(2 1fr);

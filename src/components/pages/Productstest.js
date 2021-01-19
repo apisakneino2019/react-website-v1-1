@@ -8,74 +8,79 @@ import { Link } from "react-router-dom";
 const datas = [
   {
     id: "10",
-    img: "/img-v1/Smoke.jpg",
+    img: "/img-v1/Smoke.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "เครื่องตรวจจับควันระบบไฟฟ้า CM-WT32L",
+    decrition: "เป็นตัวแทนจำหน่ายที่ผ่านการรับรองจาก R.O.C",
   },
 
   {
     id: "11",
-    img: "/img-v1/GST-IFP.jpg",
+    img: "/img-v1/GST-IFP.png",
     alt: "2",
-    title: "",
-    decrition: "",
+    title: "แผงควบคุมเตือนไฟไหม้อัจฉริยะ",
+    decrition:
+      "รุ่น GST-IFP8 ความสามารถในการใช้พลังงานที่หลากหลายเหมาะสำหรับอุปกรณ์ไฟฟ้าทุกประเภท",
   },
   {
     id: "12",
-    img: "/img-v1/Notifier.jpg",
+    img: "/img-v1/Notifier.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "เครื่องตรวจจับความร้อน รุ่น 5600",
+    decrition: "5600 Series Mechaical Heat Detectors",
   },
   {
     id: "13",
-    img: "/img-v1/Notifier-NFS.jpg",
+    img: "/img-v1/Address.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "โมดูลอินพุตแอดเดรส GST",
+    decrition:
+      "รุ่น I-9300 เข้ารหัสด้วยโปรแกรมเมอร์มือถือ P9910 สามารถเลือกชนิดอินพุต N/O (default) หรือ N/C โดย programmer",
   },
   {
     id: "14",
-    img: "/img-v1/Pannal.jpg",
+    img: "/img-v1/Pannal.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "แผงควบคุมระบบแจ้งเตือนไฟไหม้ CM-P1",
+    decrition: "แผงควบคุมระบบแจ้งเตือนไฟไหม้ แบบตั้ง",
   },
   {
     id: "15",
-    img: "/img-v1/Sensor.jpg",
+    img: "/img-v1/Sensor.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "เครื่องดักจับหลายเซนเซอร์ GST",
+    decrition:
+      "รุ่น I-9101 หมาะกับระบบความปลอดภัยในชีวิตซึ่งการตรวจสอบเพียงครั้งเดียวตามปกติไม่เพียงพอ",
   },
   {
     id: "16",
-    img: "/img-v1/Buzzer.jpg",
+    img: "/img-v1/Buzzer.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "ฐานเสียงสัญญาณเตือน GST",
+    decrition:
+      "รุ่น I/C-9402 เสียงเตือนอยู่ในโหมดการแจ้งเตือน / อพยพคนออกจากพื้นที่ เหมาะสำหรับสำนักงานหรือห้องพักโรงแรม",
   },
   {
     id: "17",
-    img: "/img-v1/CM-FPI.jpg",
+    img: "/img-v1/CM-FPI.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "ระบบแจ้งเตือนไฟไหม้ รุ่น CM-FPI",
+    decrition: "ระบบแจ้งเตือนสัญญานไฟ้ไหม้ รุ่น CM-FPI",
   },
   {
     id: "18",
-    img: "/img-v1/CM-PBL.jpg",
+    img: "/img-v1/CM-PBL.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "ระบบแจ้งเตือนไฟไหม้ CM-PBL",
+    decrition: "ระบบแจ้งเตือนไฟไหม้แบบคอมเพลกซ์",
   },
   {
     id: "19",
-    img: "/img-v1/Firealam.jpg",
+    img: "/img-v1/Firealam.png",
     alt: "1",
-    title: "",
-    decrition: "",
+    title: "อุปกรณ์แจ้งเหตุเพลิงไหม้ด้วยมือ GST",
+    decrition:
+      "รุ่น I/C-9202 อุปกรณ์เตือนแบบใช้มือ ตั้งค่าใหม่ด้วยกุญแจพิเศษ รหัส MCP อัจฉริยะโดยโปรแกรมเมอร์มือถือ",
   },
 ];
 
@@ -92,7 +97,7 @@ export default function Productstest() {
           {" "}
           <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
         </span>
-        <a href="/services" className="pathway">
+        <a href="/products" className="pathway">
           อุปกรณ์ทั้งหมด
         </a>
       </div>
@@ -178,7 +183,7 @@ export default function Productstest() {
 
                 <>
                   <div className="btn-btn">
-                    <Link to="/services">
+                    <Link to="/AboutUs">
                       <button className="btn-btn-2">ติดต่อฝ่ายขาย </button>
                     </Link>
                   </div>

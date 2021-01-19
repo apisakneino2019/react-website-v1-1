@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
-
+import ContactUs from "../ContactUs";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import { Link } from "react-router-dom";
@@ -213,17 +213,9 @@ export default function Services() {
         <TopSer />
 
         <div className="breadcrumbs">
-          <span className="showHere">คุณอยู่ที่: </span>
-          <a href="/" className="pathway">
-            หน้าแรก
-          </a>
-          <span className="showHere">
-            {" "}
-            <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
-          </span>
-          <a href="/services" className="pathway">
-            สินค้าและบริการ
-          </a>
+          <span className="showHere"> </span>
+
+          <span className="showHere"> </span>
         </div>
 
         <div className="hero-img-container">
@@ -240,6 +232,20 @@ export default function Services() {
               {sliceimg}
             </Carousel>
           </div>
+          <div className="breadcrumbs">
+            <span className="showHere">คุณอยู่ที่: </span>
+            <a href="/" className="pathway">
+              หน้าแรก
+            </a>
+            <span className="showHere">
+              {" "}
+              <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
+            </span>
+            <a href="/services" className="pathway">
+              สินค้าและบริการ
+            </a>
+          </div>
+          <ContactUs />
         </div>
       </div>
       <ScrollToTop showUnder={160}>

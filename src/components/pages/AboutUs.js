@@ -1,10 +1,9 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
-
+import ContactUs from "../ContactUs";
 import ScrollToTop from "react-scroll-up";
 import TopAbout from "../TopAbout";
-// import { Link } from "react-router-dom";
 
 export default function AboutUs() {
   return (
@@ -31,6 +30,7 @@ export default function AboutUs() {
           <img src="/img-960px/up_arrow_round.png" alt="" />
         </span>
       </ScrollToTop>
+      <ContactUs />
       <Footer />
     </div>
   );
