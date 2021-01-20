@@ -24,7 +24,6 @@
 .navbar-logo {
     color: rgb(16, 2, 2);
     justify-self: start;
-    margin-left: 20px;
     cursor: pointer;
     text-decoration: none;
     font-size: 1rem;
@@ -32,7 +31,7 @@
     display: flex;
     align-items: center;
     position: absolute;
-    transform: translate(-270%, 0);
+    transform: translate(-590%, 0);
 }
 
 .nav-menu:hover {
@@ -40,10 +39,9 @@
 }
 
 .nav-links:hover {
-    background-color: rgb(3, 19, 255);
+    background-color: rgb(255, 3, 3);
     color: rgb(255, 255, 255);
     font-weight: bold;
-    font-size: 1.2rem;
 }
 
 .nav-menu {
@@ -191,7 +189,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        transform: translate(-250%, 25%);
+        transform: translate(-180%, 25%);
         font-size: 1.2rem;
     }
     .navbar {

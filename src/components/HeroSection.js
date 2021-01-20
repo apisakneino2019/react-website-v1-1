@@ -44,16 +44,6 @@ function HeroSection() {
         <source src="/video/Yellowfire.mp4" type="video/mp4" />
       </video>
       <div className="img-home">
-        {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
-        {/* <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1> */}
-
-        <p className="dataText">
-          " บ้าน ,โรงเรียน ,โรงแรม ,โชว์รูม ,โรงงาน ,โกดัง"
-        </p>
-        <p className="dataText">
-          "ระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย "
-        </p>
-
         <div className="hero-img-container">
           <Carousel
             ssr
@@ -67,6 +57,15 @@ function HeroSection() {
             {sliceimg}
           </Carousel>
         </div>
+        {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
+        {/* <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1> */}
+
+        <p className="dataText">
+          " บ้าน ,โรงเรียน ,โรงแรม ,โชว์รูม ,โรงงาน ,โกดัง"
+        </p>
+        <p className="dataText">
+          "ระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย "
+        </p>
       </div>
     </div>
   );

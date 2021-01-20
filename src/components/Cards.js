@@ -1,6 +1,7 @@
 import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
+import { Link } from "react-router-dom";
 
 function Cards() {
   return (
@@ -25,21 +26,18 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="/img-v1/control.jpg"
-              text="เพิ่มเติม"
               label="แผงควบคุมสัญญาณเตือนไฟไหม้"
               path="/test"
             />
 
             <CardItem
               src="/img-v1/annunciators.jpg"
-              text="เพิ่มเติม"
               label="เครื่องแจ้งเตือนไฟไหม้"
               path="/test"
             />
 
             <CardItem
               src="/img-v1/devices.jpg"
-              text="เพิ่มเติม"
               label="อุปกรณ์แจ้งเตือน"
               path="/test"
             />
@@ -51,25 +49,33 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="/img-v1/heatsmoke.jpg"
-              text="เพิ่มเติม"
               label="เครื่องตรวจจับความร้อนและควัน"
               path="/test"
             />
 
             <CardItem
               src="/img-v1/manual.jpg"
-              text="เพิ่มเติม"
               label="คู่มือการแจ้งเหตุเพลิงไหม้สถานี"
               path="/test"
             />
 
             <CardItem
               src="/img-v1/modules.jpg"
-              text="เพิ่มเติม"
               label="โมดูลสัญญาณเตือนไฟไหม้"
               path="/test"
             />
           </ul>
+        </div>
+        <div>
+          {" "}
+          <Link to="/#">
+            <button class="button">แผงควบคุมสัญญาณเตือนไฟไหม้</button>
+            <button class="button">เครื่องแจ้งเตือนไฟไหม้</button>
+            <button class="button">อุปกรณ์แจ้งเตือน</button>
+            <button class="button">เครื่องตรวจจับความร้อนและควัน</button>
+            <button class="button">คู่มือการแจ้งเหตุเพลิงไหม้สถานี</button>
+            <button class="button">โมดูลสัญญาณเตือนไฟไหม้</button>
+          </Link>
         </div>
       </div>
     </div>

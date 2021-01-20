@@ -95,7 +95,38 @@ export default function Products() {
         </a>
       </div>
       <div className="containers">
-        <Link to="/">
+        <ul class="pagination">
+          <li>
+            <a href="#">«</a>
+          </li>
+          <li>
+            <a href="#">1</a>
+          </li>
+          <li>
+            <a class="active" href="#">
+              2
+            </a>
+          </li>
+          <li>
+            <a href="#">3</a>
+          </li>
+          <li>
+            <a href="#">4</a>
+          </li>
+          <li>
+            <a href="#">5</a>
+          </li>
+          <li>
+            <a href="#">6</a>
+          </li>
+          <li>
+            <a href="#">7</a>
+          </li>
+          <li>
+            <a href="#">»</a>
+          </li>
+        </ul>
+        {/* <Link to="/">
           <button
             className="btn-next-one"
             style={{
@@ -161,7 +192,7 @@ export default function Products() {
           >
             หน้า 4/4
           </button>
-        </Link>
+        </Link> */}
         <div className="item-containers">
           {datas.map(function (data, i) {
             return (
@@ -185,6 +216,7 @@ export default function Products() {
           })}
 
           <div className="btn-next-page"></div>
+
           <ScrollToTop showUnder={160}>
             <span>
               <img src="/img-960px/up_arrow_round.png" alt="" />

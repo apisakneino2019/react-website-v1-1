@@ -27,12 +27,14 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
+        <img
+          src="/img-v1/Logo AllWeb web.png"
+          alt="LoGo"
+          width="200px"
+          height="80px"
+        />{" "}
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}>
-            <img src="/img-v1/logoone.png" alt="" width="" height="" />{" "}
-            ออลล์เว็บ เทคโนโลยี่
-            {/* <i class='fab fa-typo3' /> */}
-          </Link>
+          <Link to="/" className="navbar-logo" onClick={closeMobileMenu}></Link>
           <div className="menu-icon" onClick={handleClick}>
             <i className={click ? "fas fa-times" : "fas fa-bars"} />
           </div>

@@ -4,7 +4,7 @@ import Footer from "../Footer";
 import ContactUs from "../ContactUs";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
 
 import ScrollToTop from "react-scroll-up";
 import TopSer from "../TopSer";
@@ -200,9 +200,9 @@ export default function Services() {
             width="100%"
             height="auto"
           />
-          <Link to="/AboutUs">
+          {/* <Link to="/AboutUs">
             <p style={{ textAlign: "center" }}>{data.title}</p>
-          </Link>
+          </Link> */}
         </div>
       </>
     );

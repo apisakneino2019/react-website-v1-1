@@ -10,6 +10,21 @@
     grid-template-columns: repeat(4, 1fr);
 }
 
+ul.pagination {
+    display: inline-block;
+}
+
+ul.pagination li {
+    display: inline;
+}
+
+ul.pagination li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
 .containers {
     max-width: 1140px;
     margin: 0 auto;
@@ -104,11 +119,9 @@
     }
     .text-title {
         font-family: 'Kanit', sans-serif;
-        font-size: 36px;
+        font-size: 28px;
     }
     .TopTitle {
-        background-image: linear-gradient(to bottom right, red, yellow);
-        /* background: url(/img-v1/MixImg.png) center center/cover no-repeat; */
         height: 30vh;
         width: auto;
         display: grid;
@@ -129,7 +142,7 @@
         transform: translate(-70px, 35px);
     }
     .nav-item {
-        height: 50px;
+        height: 80px;
     }
     .navbar-container {
         display: flex;
