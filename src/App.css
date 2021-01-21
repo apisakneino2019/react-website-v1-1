@@ -57,14 +57,9 @@
     font-size: 100px;
 }
 
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
 .container {
     max-width: 1140px;
+    min-width: 375px;
     margin: 0 auto;
 }
 
@@ -124,14 +119,8 @@
     font-family: 'Kanit', sans-serif;
 }
 
-
-/* .data-text button {
-    transform: translate(100%, 20%);
-} */
-
 .area {
-    background-color: rgb(255, 255, 255);
-    /* background: linear-gradient(90deg, rgb(255, 133, 133) 0%, rgb(255, 0, 0) 100%); */
+    background-color: rgb(253, 253, 253);
 }
 
 .btn btn-1 {
@@ -189,7 +178,6 @@
 }
 
 .container {
-    /* padding-right: 80%; */
     background-color: rgb(255, 255, 255);
 }
 
@@ -201,7 +189,7 @@
     margin-bottom: 10px;
     margin-left: 10px;
     margin-right: 10px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .ContainerDemand {
@@ -212,46 +200,21 @@
 
 .Demand-first h1 {
     border: double;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
     background-color: rgb(211, 23, 23);
     color: whitesmoke;
     padding: 10px 50px;
 }
 
-@media screen and (max-width: 414px) {
-    .hero-container {
-        background-color: #d0ff0036;
-        /* background: url('/img-v1/MixImg.png') center center/cover no-repeat; */
-        height: 100vh;
-        width: auto;
-        display: grid;
-        grid-template-columns: repeat(2 1fr);
-        justify-content: center;
-        align-items: center;
-        box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.165);
-        object-fit: contain;
-    }
-    .data-text {
-        text-align: left;
-        text-indent: 10%;
-        color: rgb(0, 0, 0);
-        margin-top: 10px;
-        margin-bottom: 10px;
-        margin-left: 10px;
-        margin-right: 10px;
-        font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-}
-
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 960px) {
     * {
         box-sizing: border-box;
         margin: 0;
         padding: 0;
-        font-family: 'PT Sans', sans-serif;
+        font-family: 'Kanit', sans-serif;
     }
     .text-title {
-        font-family: Kanit, sans-serif;
+        font-family: 'Kanit', sans-serif;
         font-size: 28px;
     }
     .item {
@@ -262,8 +225,6 @@
         padding: 15px;
     }
     .hero-container {
-        /* background-color: #d0ff0036; */
-        /* background: url('/img-v1/MixImg.png') center center/cover no-repeat; */
         height: 100vh;
         width: auto;
         display: grid;
@@ -281,14 +242,14 @@
         margin-bottom: 10px;
         margin-left: 10px;
         margin-right: 10px;
-        font-family: Verdana, Tahoma, sans-serif;
+        font-family: 'Kanit', sans-serif;
     }
     .nav-links {
         text-align: center;
-        padding: 2rem;
         width: 100%;
         display: table;
-        background-color: aqua;
+        background-color: rgb(0, 0, 0);
+        padding-right: 200px;
     }
     .Img {
         height: 270px;

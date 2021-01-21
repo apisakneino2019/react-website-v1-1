@@ -6,6 +6,7 @@
 
 .item-containers {
     max-width: 1140px;
+    min-width: 375px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
 }

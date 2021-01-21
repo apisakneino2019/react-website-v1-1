@@ -28,10 +28,11 @@ function Navbar() {
     <>
       <nav className="navbar">
         <img
+          className="imglogo"
           src="/img-v1/Logo AllWeb web.png"
           alt="LoGo"
-          width="200px"
-          height="80px"
+          width="150px"
+          height="60px"
         />{" "}
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}></Link>

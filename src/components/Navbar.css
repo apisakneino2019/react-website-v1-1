@@ -1,5 +1,12 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Kanit', sans-serif;
+}
+
 .navbar {
-    background: linear-gradient(90deg, rgb(248, 216, 216) 0%, rgb(255, 0, 0) 100%);
+    background: linear-gradient(50deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
     height: 80px;
     display: flex;
     justify-content: center;
@@ -17,7 +24,7 @@
     justify-content: center;
     align-items: center;
     height: 80px;
-    max-width: 1500px;
+    max-width: 1140px;
     transform: translate(115px, 0px);
 }
 
@@ -39,8 +46,8 @@
 }
 
 .nav-links:hover {
-    background-color: rgb(169, 143, 0);
-    color: rgb(255, 255, 255);
+    background-color: rgb(255, 247, 0);
+    color: rgb(255, 0, 0);
     font-weight: bold;
 }
 
@@ -86,7 +93,7 @@
 }
 
 .fa-bars {
-    color: rgb(16, 2, 2);
+    color: rgb(0, 0, 0);
 }
 
 .nav-links-mobile {
@@ -119,7 +126,7 @@
         background-color: aqua;
     }
     .nav-menu.active {
-        background: #242222;
+        background: #000000;
         left: 0;
         opacity: 1;
         position: inherit;
@@ -132,7 +139,7 @@
         padding: 2rem;
         width: 100%;
         display: table;
-        background-color: aqua;
+        background-color: rgb(0, 0, 0);
     }
     .nav-links:hover {
         background-color: #fff;
@@ -156,8 +163,12 @@
         cursor: pointer;
     }
     .fa-times {
-        color: rgb(16, 2, 2);
+        color: rgb(221, 255, 0);
         font-size: 2rem;
+        padding-right: 80px;
+    }
+    .imglogo {
+        display: inline;
     }
     .nav-links-mobile {
         /* display: block; */
@@ -184,7 +195,15 @@
     }
 }
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 960px) {
+    .fa-times:before {
+        content: "\f00d";
+        padding-right: 75px;
+    }
+    .fa-bars:before {
+        content: "\f0c9";
+        padding-right: 160px;
+    }
     .navbar-logo {
         position: absolute;
         top: 0;
@@ -195,26 +214,14 @@
     .navbar {
         background: linear-gradient(90deg, rgb(255, 133, 133) 0%, rgb(255, 0, 0) 100%);
         height: 80px;
-        width: 480px;
         display: flex;
         justify-content: center;
         align-items: center;
-        font-size: 0.9rem;
+        font-size: 1rem;
         font-weight: bold;
         font-family: 'Kanit', sans-serif;
         position: sticky;
         top: 0;
         z-index: 999;
-        transform: translate(135px, 0px);
-    }
-}
-
-@media screen and (max-width: 414px) {
-    .navbar-logo {
-        position: absolute;
-        top: 0;
-        left: 0;
-        transform: translate(-250%, 25%);
-        font-size: 1.2rem;
     }
 }

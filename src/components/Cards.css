@@ -1,7 +1,7 @@
 .cards {
     padding: 4rem;
     background: rgb(255, 253, 253);
-    max-width: 1420px;
+    max-width: 1140px;
     width: 100%;
     margin: 0 auto;
 }
@@ -141,22 +141,4 @@ h5 {
 
 .text-cards {
     text-align: center;
-}
-
-@media only screen and (min-width: 1200px) {
-    .content__blog__container {
-        width: 84%;
-    }
-}
-
-@media only screen and (min-width: 1024px) {
-    .cards__items {
-        display: flex;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-    .cards__item {
-        margin-bottom: 2rem;
-    }
 }
