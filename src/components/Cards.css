@@ -127,7 +127,7 @@ h5 {
     background: linear-gradient(90deg, rgb(0, 194, 253) 0%, rgb(0, 8, 255) 100%);
     font-size: 1rem;
     line-height: 1.5rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .text-card {
@@ -136,7 +136,7 @@ h5 {
     text-indent: 1.5em;
     text-align: left;
     font-size: 1rem;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, 'Segoe UI', Tahoma, Geneva, Verdana, 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .text-cards {

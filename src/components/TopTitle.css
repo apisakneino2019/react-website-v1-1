@@ -1,8 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 .TopTitle {
     /* background-image: linear-gradient(to bottom right, red, yellow); */
-    background: url('/img-v1/wall-21534_1920.jpg');
-    height: 30vh;
+    background: url('/img-v1/fire-2197606_1920.jpg');
+    height: 70vh;
     width: auto;
     display: grid;
     font-size: 28px;
@@ -15,8 +15,8 @@
 }
 
 .text-title {
-    color: rgb(0, 0, 0);
-    text-shadow: #6ca220 0.1em 0.1em 0.2em;
+    color: rgb(73, 25, 23);
+    text-shadow: #ffee00 0.1em 0.1em 0.2em;
     text-decoration: overline;
 }
 
@@ -30,7 +30,7 @@
 
 .text-title {
     font-family: 'Kanit', sans-serif;
-    font-size: 52px;
+    font-size: 80px;
 }
 
 @media screen and (max-width: 375px) {

@@ -2,7 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: 'PT Sans', sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Sarabun:ital@1&display=swap');
@@ -90,7 +90,7 @@
 .text {
     color: rgb(0, 0, 0);
     font-size: 1rem;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
     margin: 10px;
 }
 
@@ -113,7 +113,7 @@
     text-align: center;
     font-size: 1rem;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .data-text p li {
@@ -121,7 +121,7 @@
     text-align: left;
     font-size: .8rem;
     list-style-type: upper-roman;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 
@@ -131,7 +131,7 @@
 
 .area {
     background-color: rgb(255, 255, 255);
-    background-image: linear-gradient(rgb(255, 255, 255), rgb(9, 170, 245));
+    /* background: linear-gradient(90deg, rgb(255, 133, 133) 0%, rgb(255, 0, 0) 100%); */
 }
 
 .btn btn-1 {

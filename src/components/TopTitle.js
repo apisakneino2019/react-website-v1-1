@@ -12,7 +12,11 @@ export default function TopTitle() {
         <div className="TopTitleText">
           <h1 className="text-title">
             {" "}
-            เพลิงไหม้ มีสาเหตุ ! เราจะป้องกันได้อย่างไร ? ที่นี่มีคำตอบ
+            เพลิงไหม้ มีสาเหตุ ! <br />{" "}
+          </h1>
+          <h1 className="text-title">
+            {" "}
+            เราจะป้องกันได้อย่างไร ? ที่นี่มีคำตอบ
           </h1>
         </div>
       </div>

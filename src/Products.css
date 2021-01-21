@@ -50,7 +50,7 @@ ul.pagination li a {
     text-Indent: 1rem;
     text-decoration: underline;
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
     padding: 12px;
     font-size: .9rem;
 }
@@ -60,7 +60,7 @@ ul.pagination li a {
     text-Indent: .2rem;
     font-Size: .5rem;
     padding: 12px;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
 }
 
 .img {
@@ -82,7 +82,7 @@ ul.pagination li a {
 .datanumber {
     color: rgb(122, 83, 83);
     font-weight: bold;
-    font-family: sans-serif;
+    font-family: 'Kanit', sans-serif;
     text-align: center;
     transform: translate(-100px, 35px);
 }
@@ -137,7 +137,7 @@ ul.pagination li a {
     .datanumber {
         color: rgb(122, 83, 83);
         font-weight: bold;
-        font-family: sans-serif;
+        font-family: 'Kanit', sans-serif;
         text-align: center;
         transform: translate(-70px, 35px);
     }
