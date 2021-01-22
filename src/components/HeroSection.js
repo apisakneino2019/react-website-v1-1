@@ -38,34 +38,35 @@ function HeroSection() {
     );
   });
   return (
-    // <div className="area">
-    <div className="hero-container">
-      <video autoPlay muted loop id="myVideo">
-        <source src="/video/Yellowfire.mp4" type="video/mp4" />
-      </video>
-      <div className="img-home">
-        <div className="hero-img-container">
-          <Carousel
-            ssr
-            partialVisbile
-            itemClass="image-item"
-            responsive={responsive}
-            autoPlaySpeed={2000}
-            autoPlay={true}
-            infinite
-          >
-            {sliceimg}
-          </Carousel>
-        </div>
-        {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
-        {/* <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1> */}
+    <div className="area">
+      <div className="hero-container">
+        <video autoPlay muted loop id="myVideo">
+          <source src="/video/Yellowfire.mp4" type="video/mp4" />
+        </video>
+        <div className="img-home">
+          <div className="hero-img-container">
+            <Carousel
+              ssr
+              partialVisbile
+              itemClass="image-item"
+              responsive={responsive}
+              autoPlaySpeed={2000}
+              autoPlay={true}
+              infinite
+            >
+              {sliceimg}
+            </Carousel>
+          </div>
+          {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
+          {/* <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1> */}
 
-        <p className="dataText">
-          " บ้าน ,โรงเรียน ,โรงแรม ,โชว์รูม ,โรงงาน ,โกดัง"
-        </p>
-        <p className="dataText">
-          "ระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย "
-        </p>
+          <p className="dataText">
+            " บ้าน ,โรงเรียน ,โรงแรม ,โชว์รูม ,โรงงาน ,โกดัง"
+          </p>
+          <p className="dataText">
+            "ระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย "
+          </p>
+        </div>
       </div>
     </div>
   );

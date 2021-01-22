@@ -2,10 +2,10 @@
 .TopTitle {
     /* background-image: linear-gradient(to bottom right, red, yellow); */
     background: url('/img-v1/fire-2197606_1920.jpg');
-    box-shadow: inset 0 0 0 1000px rgba(206, 179, 179, 0.535);
     object-fit: contain;
-    height: 98vh;
-    width: auto;
+    height: 50vh;
+    max-width: 1140px;
+    margin: 0 auto;
     display: grid;
     font-size: 28px;
     grid-template-columns: repeat(2 1fr);
@@ -22,17 +22,22 @@
     text-decoration: overline;
 }
 
+.area {
+    background-color: rgb(253, 253, 253);
+    margin: 0 auto;
+    max-width: 1140px;
+}
+
 .breadcrumbs {
     padding: 1rem;
     background: rgb(255, 255, 255);
     max-width: 1140px;
-    width: 100%;
     margin: 0 auto;
 }
 
 .text-title {
     font-family: 'Kanit', sans-serif;
-    font-size: 80px;
+    font-size: 62px;
 }
 
 @media screen and (max-width: 375px) {
