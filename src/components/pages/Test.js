@@ -1,6 +1,6 @@
 import React from "react";
 import "../../App.css";
-// import Footer from "../Footer";
+import Footer from "../Footer";
 import Annunciator from "./Annunciator";
 import Devices from "./Devices";
 import GuidePage from "../GuidePage";
@@ -143,7 +143,7 @@ function Test() {
           <img src="/img-960px/up_arrow_round.png" alt="" />
         </span>
       </ScrollToTop>
-      {/* <Footer /> */}
+      <Footer />
     </div>
   );
 }

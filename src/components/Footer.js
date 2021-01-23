@@ -3,7 +3,7 @@ import "./Footer.css";
 
 function Footer() {
   return (
-    <div className="area">
+    <div className="area" style={{ maxWidth: "100%" }}>
       <div className="footer-container">
         <div className="footer-links">
           <div className="footer-link-items">

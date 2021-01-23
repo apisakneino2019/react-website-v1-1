@@ -20,10 +20,6 @@
     border-radius: 5px;
 }
 
-h1 {
-    text-align: center;
-}
-
 .cards__container {
     display: flex;
     flex-flow: column;
@@ -110,10 +106,6 @@ h1 {
     transform: scale(1.1);
 }
 
-h5 {
-    color: #ffffff;
-}
-
 .cards__item__info {
     padding: 20px 130px 30px;
     text-align: center;
@@ -134,8 +126,4 @@ h5 {
     text-align: left;
     font-size: 1rem;
     font-family: 'Kanit', sans-serif;
-}
-
-.text-cards {
-    text-align: center;
 }
