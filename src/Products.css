@@ -6,9 +6,9 @@
 
 .item-containers {
     max-width: 1140px;
-    min-width: 375px;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
+    margin: 0 auto;
 }
 
 ul.pagination {
@@ -35,7 +35,6 @@ ul.pagination li a {
 }
 
 .containers span {
-    /* background-color: rgb(158, 216, 243); */
     font-weight: bold;
     padding: 0 25%;
     font-size: smaller;
@@ -65,11 +64,7 @@ ul.pagination li a {
 }
 
 .img {
-    /* padding: 50px; */
-    /* background-color: green; */
     transition: transform .2s;
-    /* width: 200px;
-    height: 200px; */
     margin: 0 auto;
 }
 
@@ -130,7 +125,6 @@ ul.pagination li a {
         grid-template-columns: repeat(2 1fr);
         justify-content: center;
         align-items: center;
-        box-shadow: inset 0 0 0 1000px rgba(255, 255, 255, 0.076);
         object-fit: contain;
         font-weight: bold;
         color: white;
@@ -154,8 +148,3 @@ ul.pagination li a {
         transform: translate(80px, 0px);
     }
 }
-
-
-/* .btn-2 btn-2{
-
-} */

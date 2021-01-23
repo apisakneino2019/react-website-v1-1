@@ -20,8 +20,10 @@
 }
 
 .footer-links {
-    max-width: 100%;
+    max-width: 1140px;
+    margin: 0 auto;
     display: flex;
+    padding: 50px;
     justify-content: center;
 }
 
@@ -96,4 +98,40 @@
 
 .map {
     padding: 40px;
+}
+
+@media screen and (max-width: 414px) {
+    .footer-links {
+        max-width: 1140px;
+        margin: 0 auto;
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .footer-links {
+        max-width: 1140px;
+        margin: 0 auto;
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+        justify-content: center;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .footer-links {
+        max-width: 1140px;
+        margin: 0 auto;
+        /* display: flex; */
+        display: grid;
+        grid-template-columns: 1fr;
+        padding: 50px;
+        justify-content: center;
+    }
 }

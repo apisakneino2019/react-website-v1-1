@@ -1,25 +1,18 @@
 import React from "react";
 import "./Footer.css";
 
-// import { Link } from "react-router-dom";
-
 function Footer() {
   return (
     <div className="area">
       <div className="footer-container">
         <div className="footer-links">
-          {/* <div className="footer-link-items"> */}
           <div className="footer-link-items">
             <h2>ระบบอื่นๆที่เกี่ยวข้อง</h2>
             <span>
               <a
                 target="_blank"
-                href="https://allweb.co.th/2019/
-                  %E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93
-                  %E0%B9%8C%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%9E%E0%B
-                  8%A5%E0%B8%B4%E0%B8%87.html"
+                href="https://allweb.co.th/2019/%E0%B8%AD%E0%B8%B8%E0%B8%9B%E0%B8%81%E0%B8%A3%E0%B8%93%E0%B9%8C%E0%B8%94%E0%B8%B1%E0%B8%9A%E0%B9%80%E0%B8%9E%E0%B8%A5%E0%B8%B4%E0%B8%87.html"
               >
-                {" "}
                 ระบบป้องกันอัคคีภัย CL <br />
                 ระบบป้องกันอัคคีภัย Notifier <br />
                 ระบบป้องกันอัคคีภัย Vigilant <br />
@@ -44,7 +37,7 @@ function Footer() {
               47/316 Poppular Rd., Ban Mai, Pak Kret, Nonthaburi 11120
               (สำนักงานใหญ่)
             </span>
-            <br />
+
             <span>
               ที่อยู่ : 3279/25 ถ.สืบศิริ ต.ในเมือง อ.เมือง จ.นครราชสีมา 30000
               <br />
@@ -86,14 +79,14 @@ function Footer() {
                       style={{ padding: "10px 10px" }}
                       src="/images-notifier/map.jpg"
                       alt="map"
-                      width="50%"
+                      width="100%"
                       height="auto"
                     />
                     <img
                       style={{ padding: "10px 10px" }}
                       src="/images-notifier/CodeQr.png"
                       alt="QR Code"
-                      width="25%"
+                      width="50%"
                       height="auto"
                     />
                     <tr>
@@ -129,9 +122,6 @@ function Footer() {
               </body>
             </div>
           </div>
-          {/* ตรงนี้ */}
-          {/* </div> */}
-          {/* ตรงนี้ */}
         </div>
       </div>
     </div>

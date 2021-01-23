@@ -5,10 +5,6 @@ export default function TopTitle() {
   return (
     <>
       <div className="TopTitle">
-        {/* <video autoPlay muted loop id="myVideo">
-          <source src="/video/Yellowfire.mp4" type="video/mp4" />
-        </video> */}
-
         <div className="TopTitleText">
           <h1 className="text-title">
             {" "}

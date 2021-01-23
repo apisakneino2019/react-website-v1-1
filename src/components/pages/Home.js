@@ -6,7 +6,6 @@ import HeroSection from "../HeroSection";
 
 import Footer from "../Footer";
 import ScrollToTop from "react-scroll-up";
-// import Customer from "../Customer";
 
 function Home() {
   return (
@@ -19,7 +18,7 @@ function Home() {
       <TopTitle />
       <HeroSection />
       <Cards />
-      {/* <Customer /> */}
+
       <Footer />
     </>
   );

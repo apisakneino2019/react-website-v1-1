@@ -103,96 +103,13 @@ export default function Products() {
             <a href="#">1</a>
           </li>
           <li>
-            <a class="active" href="#">
-              2
-            </a>
-          </li>
-          <li>
-            <a href="#">3</a>
-          </li>
-          <li>
-            <a href="#">4</a>
-          </li>
-          <li>
-            <a href="#">5</a>
-          </li>
-          <li>
-            <a href="#">6</a>
-          </li>
-          <li>
-            <a href="#">7</a>
+            <Link to="/Productstest">2</Link>
           </li>
           <li>
             <a href="#">»</a>
           </li>
         </ul>
-        {/* <Link to="/">
-          <button
-            className="btn-next-one"
-            style={{
-              padding: "5px 20px",
-              margin: "0 3px",
-              backgroundColor: "#ff0",
-              color: "#0000ff",
-            }}
-          >
-            หน้าแรก
-          </button>
-        </Link>
-        <Link to="/products">
-          <button
-            className="btn-next-one"
-            style={{
-              backgroundColor: "red",
-              color: "white",
-              padding: "5px 20px",
-              margin: "0 3px",
-            }}
-          >
-            หน้า 1/4
-          </button>
-        </Link>
 
-        <Link to="/Productstest">
-          <button
-            className="btn-next-one"
-            style={{
-              padding: "5px 20px",
-              margin: "0 3px",
-              backgroundColor: "#ff0",
-              color: "#0000ff",
-            }}
-          >
-            หน้า 2/4
-          </button>
-        </Link>
-
-        <Link to="/ProductsFrist">
-          <button
-            className="btn-next-one"
-            style={{
-              padding: "5px 20px",
-              margin: "0 3px",
-              backgroundColor: "#ff0",
-              color: "#0000ff",
-            }}
-          >
-            หน้า 3/4
-          </button>
-        </Link>
-        <Link to="/ProductsSecond">
-          <button
-            className="btn-next-one"
-            style={{
-              padding: "5px 20px",
-              margin: "0 3px",
-              backgroundColor: "#ff0",
-              color: "#0000ff",
-            }}
-          >
-            หน้า 4/4
-          </button>
-        </Link> */}
         <div className="item-containers">
           {datas.map(function (data, i) {
             return (

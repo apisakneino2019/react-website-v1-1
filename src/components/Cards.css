@@ -28,8 +28,7 @@ h1 {
     display: flex;
     flex-flow: column;
     align-items: center;
-    max-width: 1420px;
-    width: 100%;
+    max-width: 1140px;
     margin: 0 auto;
 }
 

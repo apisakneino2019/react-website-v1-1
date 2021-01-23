@@ -102,74 +102,22 @@ export default function Productstest() {
         </a>
       </div>
       <div className="containers">
-        <Link to="/">
-          <button
-            className="btn-next-one"
-            style={{
-              backgroundColor: "#ff0",
-              color: "#0000ff",
-              padding: "5px 20px",
-              margin: "0 3px",
-            }}
-          >
-            หน้าแรก
-          </button>
-        </Link>
-        <Link to="/products">
-          <button
-            className="btn-next-one"
-            style={{
-              backgroundColor: "#ff0",
-              color: "#0000ff",
-              padding: "5px 20px",
-              margin: "0 3px",
-            }}
-          >
-            หน้า 1/4
-          </button>
-        </Link>
+        <ul class="pagination">
+          <li>
+            <a href="#">«</a>
+          </li>
+          <li>
+            <Link to="/Products">1</Link>
+          </li>
+          <li>
+            <Link to="/Productstest">2</Link>
+          </li>
 
-        <Link to="/Productstest">
-          <button
-            className="btn-next-one"
-            style={{
-              color: "#0000ff",
-              backgroundColor: "red",
-              color: "white",
-              padding: "5px 20px",
-              margin: "0 3px",
-            }}
-          >
-            หน้า 2/4
-          </button>
-        </Link>
+          <li>
+            <a href="#">»</a>
+          </li>
+        </ul>
 
-        <Link to="/ProductsFrist">
-          <button
-            className="btn-next-one"
-            style={{
-              backgroundColor: "#ff0",
-              color: "#0000ff",
-              padding: "5px 20px",
-              margin: "0 3px",
-            }}
-          >
-            หน้า 3/4
-          </button>
-        </Link>
-        <Link to="/ProductsSecond">
-          <button
-            className="btn-next-one"
-            style={{
-              backgroundColor: "#ff0",
-              color: "#0000ff",
-              padding: "5px 20px",
-              margin: "0 3px",
-            }}
-          >
-            หน้า 4/4
-          </button>
-        </Link>
         <div className="item-containers">
           {datas.map(function (data, i) {
             return (

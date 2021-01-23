@@ -27,13 +27,16 @@ function Navbar() {
   return (
     <>
       <nav className="navbar">
-        <img
-          className="imglogo"
-          src="/img-v1/Logo AllWeb web.png"
-          alt="LoGo"
-          width="150px"
-          height="60px"
-        />{" "}
+        <div className="imglogo">
+          {" "}
+          <img
+            src="/img-v1/Logo AllWeb.png"
+            alt="LoGo"
+            width="150px"
+            height="60px"
+          />
+        </div>
+
         <div className="navbar-container">
           <Link to="/" className="navbar-logo" onClick={closeMobileMenu}></Link>
           <div className="menu-icon" onClick={handleClick}>
@@ -79,18 +82,12 @@ function Navbar() {
                 แนะนำและข้อมูลอุปกรณ์
               </Link>
             </li>
-
-            {/* <li>
-              <Link
-                to="/sign-up"
-                className="nav-links-mobile"
-                onClick={closeMobileMenu}
-              >
-                ...
+            <li className="nav-item">
+              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                EN/TH
               </Link>
-            </li> */}
+            </li>
           </ul>
-          {/* {button && <Button buttonStyle="btn--outline"></Button>} */}
         </div>
       </nav>
     </>
