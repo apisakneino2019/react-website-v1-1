@@ -52,7 +52,7 @@ function Cards() {
         </div>
         <div>
           {" "}
-          <Link to="/#">
+          <Link to="/Test">
             <button class="button">แผงควบคุมสัญญาณเตือนไฟไหม้</button>
             <button class="button">เครื่องแจ้งเตือนไฟไหม้</button>
             <button class="button">อุปกรณ์แจ้งเตือน</button>
