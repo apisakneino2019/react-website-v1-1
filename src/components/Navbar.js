@@ -79,7 +79,7 @@ function Navbar() {
 
             <li className="nav-item">
               <Link to="/test" className="nav-links" onClick={closeMobileMenu}>
-                แนะนำและข้อมูลอุปกรณ์
+                ข้อมูลอุปกรณ์
               </Link>
             </li>
             <li className="nav-item">

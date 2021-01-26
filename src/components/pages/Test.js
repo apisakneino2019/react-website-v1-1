@@ -24,7 +24,7 @@ function Test() {
           <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
         </span>
         <a href="/services" className="pathway">
-          แนะนำและข้อมูลอุปกรณ์
+          ข้อมูลอุปกรณ์
         </a>
       </div>
       <div className="container">

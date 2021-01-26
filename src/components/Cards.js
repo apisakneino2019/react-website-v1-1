@@ -30,7 +30,6 @@ function Cards() {
         </div>
 
         <div className="cards__wrapper">
-          <ul className="cards__items"></ul>
           <ul className="cards__items">
             <CardItem
               src="/img-v1/heatsmoke.jpg"

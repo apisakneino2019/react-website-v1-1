@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import ContactUs from "../ContactUs";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
+import ImageUploader from "react-images-upload";
 // import { Link } from "react-router-dom";
 
 import ScrollToTop from "react-scroll-up";
@@ -188,6 +189,7 @@ const images = [
     title: "กล้องติดรถยนต์",
   },
 ];
+
 export default function Services() {
   let sliceimg = images.map(function (data, i) {
     return (
