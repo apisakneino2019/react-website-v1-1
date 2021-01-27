@@ -1,4 +1,5 @@
 import React from "react";
+
 import Navbar from "./components/Navbar";
 
 import "./App.css";
@@ -19,7 +20,9 @@ import Productstest from "./components/pages/Productstest";
 import ProductsFrist from "./components/pages/ProductsFrist";
 import ProductsSecond from "./components/pages/ProductsSecond";
 import ContactUs from "./components/ContactUs";
+
 import Scrolltop from "./Scrolltop";
+
 function App() {
   return (
     <>
@@ -28,6 +31,7 @@ function App() {
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
+
           <Route path="/services" component={Services} />
           <Route path="/AboutUs" component={AboutUs} />
           <Route path="/products" component={Products} />
@@ -44,6 +48,7 @@ function App() {
           <Route path="/ProductsSecond" component={ProductsSecond} />
           <Route path="/ContactUs" component={ContactUs} />
         </Switch>
+
         <Scrolltop />
       </Router>
     </>

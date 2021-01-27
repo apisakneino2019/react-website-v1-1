@@ -3,7 +3,6 @@ import "../../App.css";
 import Cards from "../Cards";
 import TopTitle from "../TopTitle";
 import HeroSection from "../HeroSection";
-
 import Footer from "../Footer";
 import ScrollToTop from "react-scroll-up";
 
@@ -18,7 +17,6 @@ function Home() {
       <TopTitle />
       <HeroSection />
       <Cards />
-
       <Footer />
     </>
   );

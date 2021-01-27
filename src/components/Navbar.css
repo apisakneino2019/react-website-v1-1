@@ -19,6 +19,7 @@
     position: sticky;
     top: 0;
     z-index: 999;
+    margin-bottom: 30px;
 }
 
 .navbar .imglogo {
@@ -216,5 +217,12 @@
         position: sticky;
         top: 0;
         z-index: 999;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .fa-times:before {
+        content: "\f00d";
+        padding-right: 48px;
     }
 }

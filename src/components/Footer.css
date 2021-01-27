@@ -102,12 +102,40 @@
 
 @media screen and (max-width: 1024px) {
     .footer-links {
-        max-width: 1140px;
+        max-width: 1024px;
         margin: 0 auto;
-        /* display: flex; */
         display: grid;
-        grid-template-columns: 1fr;
         padding: 50px;
         justify-content: center;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .footer-links {
+        max-width: 425px;
+        margin: 0 auto;
+        display: grid;
+    }
+    .footer-link-items>h2 {
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .footer-link-items a {
+        color: rgb(255, 255, 255);
+        text-decoration: none;
+        margin-bottom: 0.5rem;
+        text-align: center;
+    }
+    .footer-link-items {
+        color: white;
+        text-align: center;
+    }
+    .footer-link-items>span {
+        max-width: 425px;
+        color: rgb(255, 255, 255);
+        text-align: center;
+    }
+    .footer-container {
+        max-width: 425px;
     }
 }

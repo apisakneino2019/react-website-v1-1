@@ -40,9 +40,6 @@ function HeroSection() {
   return (
     <div className="area">
       <div className="hero-container">
-        <video autoPlay muted loop id="myVideo">
-          <source src="/video/Yellowfire.mp4" type="video/mp4" />
-        </video>
         <div className="img-home">
           <div className="hero-img-container">
             <Carousel

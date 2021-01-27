@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from "react";
-import { Button } from "./Button";
+
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
@@ -83,8 +83,12 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                EN/TH
+              <Link
+                to="/HomeEn"
+                className="nav-links"
+                onClick={closeMobileMenu}
+              >
+                ENG/ไทย
               </Link>
             </li>
           </ul>

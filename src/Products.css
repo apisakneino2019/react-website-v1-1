@@ -101,7 +101,7 @@ ul.pagination li a {
 
 @media screen and (max-width: 414px) {
     .item-containers {
-        max-width: 960px;
+        max-width: 414px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -109,7 +109,7 @@ ul.pagination li a {
 
 @media screen and (max-width: 375px) {
     .item-containers {
-        max-width: 1140px;
+        max-width: 375px;
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
@@ -144,7 +144,67 @@ ul.pagination li a {
         justify-content: center;
         align-items: center;
         height: 80px;
-        max-width: 1500px;
-        transform: translate(80px, 0px);
+        max-width: 100%;
+        transform: translate(-80px, 0px);
+    }
+    .fa-times {
+        color: rgb(221, 255, 0);
+        font-size: 2rem;
+        padding-right: 20px;
+    }
+    .fa-bars:before {
+        content: "\f0c9";
+        padding-right: 100px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .item-containers {
+        max-width: 425px;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .text-title {
+        font-family: 'Kanit', sans-serif;
+        font-size: 28px;
+    }
+    .TopTitle {
+        height: 30vh;
+        width: auto;
+        display: grid;
+        font-size: 28px;
+        grid-template-columns: repeat(2 1fr);
+        justify-content: center;
+        align-items: center;
+        object-fit: contain;
+        font-weight: bold;
+        color: white;
+    }
+    .datanumber {
+        color: rgb(122, 83, 83);
+        font-weight: bold;
+        font-family: 'Kanit', sans-serif;
+        text-align: center;
+        transform: translate(-70px, 35px);
+    }
+    .nav-item {
+        height: 80px;
+    }
+    .navbar-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 80px;
+        max-width: 100%;
+        transform: translate(-60px, 0px);
+    }
+    .fa-times {
+        color: rgb(221, 255, 0);
+        font-size: 2rem;
+        padding-right: 40px;
+    }
+    .fa-bars:before {
+        content: "\f0c9";
+        padding-right: 100px;
     }
 }
