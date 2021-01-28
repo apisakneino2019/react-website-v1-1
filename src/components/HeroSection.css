@@ -9,7 +9,7 @@ Video {
 .area {
     background-color: rgb(253, 253, 253);
     margin: 0 auto;
-    max-width: 1140px;
+    max-width: 100%;
 }
 
 .hero-img-container {

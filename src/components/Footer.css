@@ -24,10 +24,6 @@
     justify-content: center;
 }
 
-.footer-link-wrapper {
-    display: flex;
-}
-
 .footer-link-items span {
     display: grid;
     font-family: 'Kanit', sans-serif;
