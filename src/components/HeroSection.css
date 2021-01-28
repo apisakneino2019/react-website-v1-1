@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Sarabun:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 Video {
     object-fit: cover;
     width: 100%;
@@ -17,6 +17,24 @@ Video {
     margin: 0 auto;
 }
 
+.hero-img-container .dataText {
+    padding-top: 4vh;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+    color: rgb(255, 0, 0);
+    font-family: 'Kanit', sans-serif;
+}
+
+.hero-img-container .data__Text {
+    padding-top: 6vh;
+    text-align: center;
+    font-size: 1.8rem;
+    font-weight: 500;
+    color: rgb(0, 60, 255);
+    font-family: 'Kanit', sans-serif;
+}
+
 .img-grid {
     width: 1140px;
     display: grid;
@@ -32,14 +50,14 @@ Video {
 }
 
 .hero-container {
-    height: 70vh;
-    max-width: 1140px;
+    height: 100vh;
+    max-width: 100%;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(2 1fr);
     justify-content: center;
     align-items: center;
-    background-color: rgb(209, 164, 164);
+    background-color: rgba(255, 0, 0, 0.357);
 }
 
 .img-home>h1 {

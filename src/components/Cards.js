@@ -50,8 +50,7 @@ function Cards() {
             />
           </ul>
         </div>
-        <div>
-          {" "}
+        <div className="btn__btn">
           <Link to="/Test">
             <button class="button">แผงควบคุมสัญญาณเตือนไฟไหม้</button>
             <button class="button">เครื่องแจ้งเตือนไฟไหม้</button>

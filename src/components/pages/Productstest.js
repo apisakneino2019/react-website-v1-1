@@ -88,6 +88,7 @@ export default function Productstest() {
   return (
     <div className="area">
       <TopPage />
+
       <div className="breadcrumbs">
         <span className="showHere">คุณอยู่ที่: </span>
         <a href="/" className="pathway">
@@ -101,6 +102,7 @@ export default function Productstest() {
           อุปกรณ์ทั้งหมด
         </a>
       </div>
+
       <div className="containers">
         <ul class="pagination">
           <li>
@@ -126,13 +128,23 @@ export default function Productstest() {
                   <p className="datanumber">{data.id}</p>
                   <img src={data.img} alt="1" />
                 </div>
+
                 <p className="data-one">{data.title}</p>
                 <p className="data-two">{data.decrition}</p>
 
                 <>
                   <div className="btn-btn">
                     <Link to="/AboutUs">
-                      <button className="btn-btn-2">ติดต่อฝ่ายขาย </button>
+                      <button className="btn-btn-2">
+                        <Link
+                          to="/img-v1/Product_Brochure.pdf"
+                          target="_blank"
+                          download
+                        >
+                          ข้อมูลเพิ่มเติม Download
+                        </Link>
+                      </button>
+                      <button className="btn-btn-2">{data.title} </button>
                     </Link>
                   </div>
                 </>

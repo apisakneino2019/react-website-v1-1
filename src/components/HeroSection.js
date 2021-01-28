@@ -28,6 +28,15 @@ const images = [
   "/images-all/installfire.png",
   "/images-all/FireExtinguishers.png",
 ];
+const datas = [
+  {
+    title1:
+      "บริการติดตั้งครบวงจร แผงควบคุมสัญญาณเตือนไฟไหม้, เครื่องแจ้งเตือนไฟไหม้, อุปกรณ์แจ้งเตือนเครื่องตรวจจับความร้อนและควัน, คู่มือการแจ้งเหตุเพลิงไหม้สถานีโมดูลสัญญาณเตือนไฟไหม้",
+    title: "  บ้าน ,โรงเรียน ,โรงแรม ,โชว์รูม ,โรงงาน ,โกดัง ",
+    decrition:
+      "เราเชี่ยวชาญและชำนาญการ ด้านงานระบบแจ้งเหตูเพลิงไหม้และมุ่งมั่น เพื่อบริการที่ดีที่สุด Fire Alarm System",
+  },
+];
 
 function HeroSection() {
   let sliceimg = images.map(function (data, i) {
@@ -54,15 +63,17 @@ function HeroSection() {
               {sliceimg}
             </Carousel>
           </div>
-          {/* <img src="/img-960px/firet.jpg" alt="" width="615" height="auto" /> */}
-          {/* <h1>ไฟไหม้สถานที่ต่างๆ เราช่วยป้องกันได้ </h1> */}
-
-          <p className="dataText">
-            " บ้าน ,โรงเรียน ,โรงแรม ,โชว์รูม ,โรงงาน ,โกดัง"
-          </p>
-          <p className="dataText">
-            "ระบบแจ้งเตือนเหตุเพลิงไหม้ คอยรักษาความปลอดภัย "
-          </p>
+          <div className="hero-img-container">
+            {datas.map(function (data, i) {
+              return (
+                <div>
+                  <p className="data__Text">{data.title1}</p>
+                  <p className="dataText">{data.title}</p>
+                  <p className="dataText">{data.decrition}</p>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </div>

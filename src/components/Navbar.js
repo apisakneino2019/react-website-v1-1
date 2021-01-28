@@ -30,7 +30,7 @@ function Navbar() {
         <div className="imglogo">
           {" "}
           <img
-            src="/img-v1/Logo AllWeb.png"
+            src="/img-v1/Logohome.png"
             alt="LoGo"
             width="150px"
             height="60px"
@@ -83,11 +83,7 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link
-                to="/HomeEn"
-                className="nav-links"
-                onClick={closeMobileMenu}
-              >
+              <Link to="/#" className="nav-links" onClick={closeMobileMenu}>
                 ENG/ไทย
               </Link>
             </li>

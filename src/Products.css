@@ -70,7 +70,8 @@ ul.pagination li a {
 
 .btn-btn .btn-btn-2 {
     align-items: center;
-    padding: 5px 70px;
+    padding: 15px 20px;
+    margin: 10px;
     color: white;
     background-color: red;
 }

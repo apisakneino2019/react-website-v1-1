@@ -5,6 +5,10 @@
     max-width: 1140px;
 }
 
+.btn__btn {
+    padding-bottom: 10vh;
+}
+
 .button {
     background-color: #ff0000;
     border: none;
@@ -31,11 +35,6 @@
 .cards__wrapper {
     position: relative;
     margin: 50px 0 45px;
-}
-
-.cards__items CardItem {
-    margin-bottom: 30px;
-    background-color: rgb(156, 131, 131);
 }
 
 .cards__item {
@@ -80,8 +79,8 @@
     max-width: calc((100%) - 60px);
     font-size: 0.8rem;
     font-weight: bold;
-    color: rgb(0, 0, 0);
-    background-color: #c4c4c4;
+    color: rgb(255, 255, 255);
+    background-color: #ff0000;
     box-sizing: border-box;
 }
 

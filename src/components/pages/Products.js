@@ -13,6 +13,7 @@ const datas = [
     title: "อุปกรณ์ตรวจจับความร้อน Honeywell X-Series XH100",
     decrition:
       "Heat Alarm อุปกรณ์ตรวจจับความร้อน  อุปกรณ์ตรวจจับความร้อน แบบไม่ต้องเดินสายนําสัญญาณ และ ไม่ต้องต่อกับตู้ควบคุมระบบใด ๆ ",
+    sale: "สอบถามเกี่ยวกับสินค้า",
   },
 
   {
@@ -22,11 +23,13 @@ const datas = [
     title: "อุปกรณ์ตรวจจับควัน Honeywell X-Series XS100",
     decrition:
       "Optical Smoke Alarm อุปกรณ์ตรวจจับควัน    อุปกรณ์ตรวจจับควัน แบบไม่ต้องเดินสายนําสัญญาณ และ ไม่ต้องต่อกับตู้ควบคุมระบบใด ๆ ",
+    sale: "สอบถามเกี่ยวกับสินค้า",
   },
   {
     id: "3",
     img: "/img-v1/Honeywell-XST.png",
     alt: "อุปกรณ์ตรวจจับควัน",
+    sale: "สอบถามเกี่ยวกับสินค้า",
     title: "อุปกรณ์ตรวจจับควัน Honeywell X-Series XS100T",
     decrition:
       "Optical Thermal Smoke Alarm อุปกรณ์ตรวจจับควัน    อุปกรณ์ตรวจจับควัน แบบไม่ต้องเดินสายนําสัญญาณ และ ไม่ต้องต่อกับตู้ควบคุมระบบใด ๆ อุปกรณ์ตรวจจับควันชนิดใช้ลำแสงในการตรวจจับ",
@@ -38,6 +41,7 @@ const datas = [
     title: "อุปกรณ์แจ้งเหตุเพลิงไหม้ด้วยมือ  ",
     decrition:
       "รุ่น DC-9204 ติดตั้งง่าย ใช้งานสะดวก การสื่อสารแบบดิจิตอลยุคใหม่",
+    sale: "สอบถามเกี่ยวกับสินค้า",
   },
   {
     id: "5",
@@ -45,8 +49,10 @@ const datas = [
     alt: "เครื่องตรวจจับควันไฟฟ้า",
     title: "เครื่องตรวจจับควันไฟฟ้า ",
     decrition: "รุ่น C-9102 เครื่องตรวจจับควันโฟโตอิเล็กทรอนิกธรรมดา",
+    sale: "สอบถามเกี่ยวกับสินค้า",
   },
   {
+    sale: "สอบถามเกี่ยวกับสินค้า",
     id: "6",
     img: "/img-v1/I-Msmoke.png",
     alt: "อุปกรณ์โมดูลระบุตำแหน่งภายใน",
@@ -55,6 +61,7 @@ const datas = [
       " รุ่น I-M9300 เหมาะสำหรับการตรวจสอบสวิทช์คอนแท็กของอุปกรณ์ระยะไกลหรือการเชื่อมต่อเครื่องตรวจจับแบบเดิม",
   },
   {
+    sale: "สอบถามเกี่ยวกับสินค้า",
     id: "7",
     img: "/img-v1/Notifier-NBG.png",
     alt: "NBG-12",
@@ -62,6 +69,7 @@ const datas = [
     decrition: "คู่มือการดำเนินการคู่ NBG-12 ",
   },
   {
+    sale: "สอบถามเกี่ยวกับสินค้า",
     id: "8",
     img: "/img-v1/Notifier-NFS.png",
     alt: "NFS2-640",
@@ -69,6 +77,7 @@ const datas = [
     decrition: "ระบบแจ้งเหตุเพลิงไหม่ Notifier NFS2-640",
   },
   {
+    sale: "สอบถามเกี่ยวกับสินค้า",
     id: "9",
     img: "/img-v1/Notifier-SD.png",
     alt: "SmokeRemoteLED",
@@ -123,8 +132,15 @@ export default function Products() {
 
                 <>
                   <div className="btn-btn">
+                    <Link
+                      to="/img-v1/Product_Brochure.pdf"
+                      target="_blank"
+                      download
+                    >
+                      ข้อมูลเพิ่มเติม Download
+                    </Link>
                     <Link to="/AboutUs">
-                      <button className="btn-btn-2">ติดต่อฝ่ายขาย </button>
+                      <button className="btn-btn-2">{data.sale} </button>
                     </Link>
                   </div>
                 </>
@@ -134,9 +150,9 @@ export default function Products() {
 
           <div className="btn-next-page"></div>
 
-          <ScrollToTop showUnder={160}>
+          <ScrollToTop showUnder={200}>
             <span>
-              <img src="/img-960px/up_arrow_round.png" alt="" />
+              <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
             </span>
           </ScrollToTop>
         </div>
