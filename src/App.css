@@ -274,7 +274,7 @@ select {
 
 input[type=submit] {
     width: 100%;
-    background-color: #4CAF50;
+    background-color: #f80000;
     color: white;
     padding: 14px 20px;
     margin: 8px 0;
@@ -284,7 +284,7 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #4b0000;
 }
 
 textarea {
@@ -297,4 +297,9 @@ textarea {
     background-color: #f8f8f8;
     font-size: 16px;
     resize: none;
+}
+
+h3 {
+    font-family: 'Kanit', sans-serif;
+    font-size: 1.5rem;
 }

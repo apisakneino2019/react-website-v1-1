@@ -43,7 +43,7 @@ export default function AboutUs() {
           <img className="Img" src="/images-notifier/map.jpg" alt="map" />
         </div>
 
-        <h3>Using CSS to style an HTML Form</h3>
+        <h3>กรอกข้อมูลที่ต้องการสอบถาม หรือสอบถามได้ด้านบน</h3>
 
         <div>
           {/* <form action="/action_page.php"> */}
