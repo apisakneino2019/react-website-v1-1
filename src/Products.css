@@ -208,4 +208,20 @@ ul.pagination li a {
         content: "\f0c9";
         padding-right: 100px;
     }
+    .hero-img-container .dataText {
+        padding-top: 4vh;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        color: rgb(255, 0, 0);
+        font-family: 'Kanit', sans-serif;
+    }
+    .hero-img-container .data__Text {
+        padding-top: 6vh;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        color: rgb(0, 60, 255);
+        font-family: 'Kanit', sans-serif;
+    }
 }

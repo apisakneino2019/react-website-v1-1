@@ -1,14 +1,25 @@
 import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
+// import { useState } from "react";
+// import Axios from "axios";
 
 import ScrollToTop from "react-scroll-up";
 import TopAbout from "../TopAbout";
+
+// const [employeeList, setEmployeeList] = useState([]);
+
+// const getEmployees = () => {
+//   Axios.get("http://localhost:8080/api").then((response) => {
+//     setEmployeeList(response.data);
+//   });
+// };
 
 export default function AboutUs() {
   return (
     <div className="area">
       <TopAbout />
+
       <div className="breadcrumbs">
         <span className="showHere">คุณอยู่ที่: </span>
         <a href="/" className="pathway">
@@ -65,25 +76,21 @@ export default function AboutUs() {
             <label htmlFor="lname">ที่อยู่</label>
             <input
               type="text"
-              id="lname"
-              name="lastname"
+              id="add"
+              name="address"
               placeholder="บ้านเลขที่...หมู่ที่..ตำบล..อำเภอ..รหัสไปรษณีย์.."
             />
             <label htmlFor="lname">อีเมล</label>
-            <input
-              type="text"
-              id="lname"
-              name="lastname"
-              placeholder="อีเมล.."
-            />
+            <input type="text" id="email" name="email" placeholder="อีเมล.." />
             <label htmlFor="lname">เบอร์โทรที่ติดต่อได้</label>
             <input
               type="text"
-              id="lname"
-              name="lastname"
+              id="number"
+              name="phone"
               placeholder="เบอร์โทรที่ติดต่อได้.."
             />
             <form>
+              <label htmlFor="lname">ชื่อสินค้าและข้อมูลที่จะสอบถาม</label>
               <textarea
                 placeholder="ชื่อสินค้าและข้อมูลที่จะสอบถาม...
                 ******ตัวอย่าง*****
@@ -178,13 +185,17 @@ export default function AboutUs() {
               <option value="อ่างทอง">อ่างทอง </option>
               <option value="อื่นๆ">อื่นๆ</option>
             </select>
+
+            {/* ******************btnsubmit******************* */}
             <input type="submit" defaultValue="Submit" />
           </form>
+          {/* ******************btnsubmit******************* */}
         </div>
       </div>
+
       <ScrollToTop showUnder={160}>
         <span>
-          <img src="/img-960px/up_arrow_round.png" alt="" />
+          <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
         </span>
       </ScrollToTop>
 

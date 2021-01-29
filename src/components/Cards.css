@@ -126,3 +126,10 @@
     font-size: 1rem;
     font-family: 'Kanit', sans-serif;
 }
+
+
+/* @media screen and (max-width: "320px") {
+    ul.cards__items {
+        margin-top: 240px;
+    }
+} */

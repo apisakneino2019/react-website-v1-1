@@ -23,7 +23,7 @@ app.use(bodyParser.json());
 // parse requests of content-type - application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: true }));
 
-app.use(express.static(path.resolve(__dirname,  "build")));
+app.use(express.static(path.resolve(__dirname, "build")));
 app.get("/", (req, res) => {
   res.sendFile(path.resolve(__dirname, "build", "index.html"));
 });
@@ -39,4 +39,12 @@ app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}.`);
 });
 
-
+app.get("/api", (req, res) => {
+  db.query("SELECT * FROM tutorials", (err, result) => {
+    if (err) {
+      console.log(err);
+    } else {
+      res.send(result);
+    }
+  });
+});

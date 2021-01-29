@@ -1,10 +1,12 @@
 import React from "react";
 import "./TopTitle.css";
+import { useTranslation } from "react-i18next";
 
 export default function TopPage() {
+  const { t } = useTranslation();
   return (
     <div className="TopTitle">
-      <h1 className="text-title">อุปกรณ์ทั้งหมด</h1>
+      <h1 className="text-title"> {t("nav.4")}</h1>
     </div>
   );
 }

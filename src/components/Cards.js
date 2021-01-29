@@ -2,8 +2,10 @@ import React from "react";
 import "./Cards.css";
 import CardItem from "./CardItem";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 function Cards() {
+  const { t } = useTranslation();
   return (
     <div className="cards">
       <div className="cards__container">
@@ -11,19 +13,19 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="/img-v1/control.jpg"
-              label="แผงควบคุมสัญญาณเตือนไฟไหม้"
+              label={t("hero.5")}
               path="/test"
             />
 
             <CardItem
               src="/img-v1/annunciators.jpg"
-              label="เครื่องแจ้งเตือนไฟไหม้"
+              label={t("hero.6")}
               path="/test"
             />
 
             <CardItem
               src="/img-v1/devices.jpg"
-              label="อุปกรณ์แจ้งเตือน"
+              label={t("hero.7")}
               path="/test"
             />
           </ul>
@@ -33,31 +35,32 @@ function Cards() {
           <ul className="cards__items">
             <CardItem
               src="/img-v1/heatsmoke.jpg"
-              label="เครื่องตรวจจับความร้อนและควัน"
+              label={t("hero.8")}
               path="/test"
             />
 
             <CardItem
               src="/img-v1/manual.jpg"
-              label="คู่มือการแจ้งเหตุเพลิงไหม้สถานี"
+              label={t("hero.9")}
               path="/test"
             />
 
             <CardItem
               src="/img-v1/modules.jpg"
-              label="โมดูลสัญญาณเตือนไฟไหม้"
+              label={t("hero.10")}
               path="/test"
             />
           </ul>
         </div>
+
         <div className="btn__btn">
           <Link to="/Test">
-            <button class="button">แผงควบคุมสัญญาณเตือนไฟไหม้</button>
-            <button class="button">เครื่องแจ้งเตือนไฟไหม้</button>
-            <button class="button">อุปกรณ์แจ้งเตือน</button>
-            <button class="button">เครื่องตรวจจับความร้อนและควัน</button>
-            <button class="button">คู่มือการแจ้งเหตุเพลิงไหม้สถานี</button>
-            <button class="button">โมดูลสัญญาณเตือนไฟไหม้</button>
+            <button class="button"> {t("hero.5")}</button>
+            <button class="button"> {t("hero.6")}</button>
+            <button class="button"> {t("hero.7")}</button>
+            <button class="button"> {t("hero.8")}</button>
+            <button class="button"> {t("hero.9")}</button>
+            <button class="button"> {t("hero.10")}</button>
           </Link>
           {/* <h2 className="text-cards">
             ทำไมคุณถึงควรติดตั้งระบบ Fire Alarm ในอาคาร <br />

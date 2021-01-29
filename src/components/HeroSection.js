@@ -3,6 +3,7 @@ import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
 import "../App.css";
 import "./HeroSection.css";
+import { useTranslation } from "react-i18next";
 
 const responsive = {
   desktop: {
@@ -39,6 +40,8 @@ const datas = [
 ];
 
 function HeroSection() {
+  const { t } = useTranslation();
+
   let sliceimg = images.map(function (data, i) {
     return (
       <div style={{ margin: "0 10px" }}>
@@ -66,10 +69,10 @@ function HeroSection() {
           <div className="hero-img-container">
             {datas.map(function (data, i) {
               return (
-                <div>
-                  <p className="data__Text">{data.title1}</p>
-                  <p className="dataText">{data.title}</p>
-                  <p className="dataText">{data.decrition}</p>
+                <div className="hero-img-container">
+                  <p className="data__Text"> {t("hero.2")}</p>
+                  <p className="dataText"> {t("hero.3")}</p>
+                  <p className="dataText"> {t("hero.4")}</p>
                 </div>
               );
             })}

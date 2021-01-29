@@ -37,10 +37,6 @@
     transform: translate(115px, 0px);
 }
 
-.nav-menu:hover {
-    font-size: 1rem;
-}
-
 .nav-links:hover {
     background-color: rgb(255, 247, 0);
     color: rgb(255, 0, 0);
@@ -85,6 +81,19 @@
 .nav-links:hover {
     border-bottom: 4px solid rgb(16, 2, 2);
     transition: all 0.2s ease-out;
+}
+
+.nav-item button {
+    background-color: #ff1100;
+    /* Green */
+    border: none;
+    color: white;
+    padding: 5px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 50%;
 }
 
 .fa-bars {
@@ -225,5 +234,21 @@
     .fa-times:before {
         content: "\f00d";
         padding-right: 48px;
+    }
+    .hero-img-container .dataText {
+        padding-top: 4vh;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        color: rgb(255, 0, 0);
+        font-family: 'Kanit', sans-serif;
+    }
+    .hero-img-container .data__Text {
+        padding-top: 6vh;
+        text-align: center;
+        font-size: 1rem;
+        font-weight: 500;
+        color: rgb(0, 60, 255);
+        font-family: 'Kanit', sans-serif;
     }
 }

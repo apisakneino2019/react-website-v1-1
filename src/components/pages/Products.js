@@ -4,6 +4,7 @@ import Footer from "../Footer";
 import TopPage from "../TopPage";
 import ScrollToTop from "react-scroll-up";
 import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 const datas = [
   {
@@ -87,20 +88,21 @@ const datas = [
 ];
 
 export default function Products() {
+  const { t } = useTranslation();
   return (
     <div className="area">
       <TopPage />
       <div className="breadcrumbs">
-        <span className="showHere">คุณอยู่ที่: </span>
+        <span className="showHere">{t("hero.11")}: </span>
         <a href="/" className="pathway">
-          หน้าแรก
+          {t("hero.12")}
         </a>
         <span className="showHere">
           {" "}
           <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
         </span>
         <a href="/products" className="pathway">
-          อุปกรณ์ทั้งหมด
+          {t("nav.4")}
         </a>
       </div>
       <div className="containers">
@@ -137,7 +139,7 @@ export default function Products() {
                       target="_blank"
                       download
                     >
-                      ข้อมูลเพิ่มเติม Download
+                      ดาวน์โหลดข้อมูลเพิ่มเติม
                     </Link>
                     <Link to="/AboutUs">
                       <button className="btn-btn-2">{data.sale} </button>

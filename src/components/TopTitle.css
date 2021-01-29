@@ -1,49 +1,84 @@
-@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-.TopTitle {
-    /* background-image: linear-gradient(to bottom right, red, yellow); */
-    background: url('/img-v1/fire-2197606_1920.jpg');
-    object-fit: contain;
-    height: 50vh;
-    max-width: 100%;
-    margin: 0 auto;
-    display: grid;
-    font-size: 28px;
-    grid-template-columns: repeat(2 1fr);
-    justify-content: center;
-    align-items: center;
-    box-shadow: inset 0 0 0 1000px rgba(255, 0, 0, 0.344);
-    object-fit: contain;
-    font-weight: bold;
-}
-
-.text-title {
-    color: rgb(73, 25, 23);
-    text-shadow: #ffee00 0.1em 0.1em 0.2em;
-    text-decoration: overline;
-    text-align: center;
-}
-
-.area {
-    background-color: rgb(253, 253, 253);
-    margin: 0 auto;
-    max-width: 100%;
-}
-
-.breadcrumbs {
-    padding: 1rem;
-    background: rgb(255, 255, 255);
-    max-width: 1140px;
-    margin: 0 auto;
-}
-
-.text-title {
-    font-family: 'Kanit', sans-serif;
-    font-size: 62px;
-}
-
-@media screen and (max-width: 375px) {
+    @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    .TopTitle {
+        /* background-image: linear-gradient(to bottom right, red, yellow); */
+        background: url('/img-v1/fire-2197606_1920.jpg');
+        object-fit: contain;
+        height: 50vh;
+        max-width: 100%;
+        margin: 0 auto;
+        display: grid;
+        font-size: 28px;
+        grid-template-columns: repeat(2 1fr);
+        justify-content: center;
+        align-items: center;
+        box-shadow: inset 0 0 0 1000px rgba(255, 60, 0, 0.344);
+        object-fit: contain;
+        font-weight: bold;
+    }
+    
+    .text-title {
+        color: rgb(73, 25, 23);
+        text-shadow: #ffee00 0.1em 0.1em 0.2em;
+        text-decoration: overline;
+        text-align: center;
+    }
+    
+    .area {
+        background-color: rgb(253, 253, 253);
+        margin: 0 auto;
+        max-width: 100%;
+    }
+    
+    .breadcrumbs {
+        padding: 1rem;
+        background: rgb(255, 255, 255);
+        max-width: 1140px;
+        margin: 0 auto;
+    }
+    
     .text-title {
         font-family: 'Kanit', sans-serif;
-        font-size: 28px;
+        font-size: 62px;
     }
-}
+    
+    @media screen and (max-width: 375px) {
+        .text-title {
+            font-family: 'Kanit', sans-serif;
+            font-size: 28px;
+        }
+        ul.cards__items {
+            margin-top: 240px;
+        }
+        .hero-img-container .dataText {
+            padding-top: 4vh;
+            text-align: center;
+            max-width: 320px;
+            margin: 0 auto;
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgb(255, 0, 0);
+            font-family: 'Kanit', sans-serif;
+        }
+        .hero-img-container .data__Text {
+            padding-top: 6vh;
+            text-align: center;
+            max-width: 320px;
+            margin: 0 auto;
+            font-size: 1rem;
+            font-weight: 500;
+            color: rgb(0, 60, 255);
+            font-family: 'Kanit', sans-serif;
+        }
+        a.cards__item__link {
+            margin-top: 100px;
+        }
+        a.nav-links {
+            transform: translate(-10px, -0px);
+        }
+        .fa-times:before {
+            content: "\f00d";
+            padding-right: 85px;
+            color: red;
+            z-index: 1;
+        }
+    }

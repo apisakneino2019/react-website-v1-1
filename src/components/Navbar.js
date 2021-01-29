@@ -1,9 +1,18 @@
 import React, { useState, useEffect } from "react";
 
+import { useTranslation } from "react-i18next";
+import i18next from "i18next";
+
 import { Link } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
+  const { t } = useTranslation();
+
+  function handleClick1(lang) {
+    i18next.changeLanguage(lang);
+  }
+
   const [click, setClick] = useState(false);
   const [button, setButton] = useState(true);
 
@@ -45,7 +54,7 @@ function Navbar() {
           <ul className={click ? "nav-menu active" : "nav-menu"}>
             <li className="nav-item">
               <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                หน้าแรก
+                {t("nav.1")}
               </Link>
             </li>
             <li className="nav-item">
@@ -54,7 +63,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                สินค้าและบริการ
+                {t("nav.2")}
               </Link>
             </li>
             <li className="nav-item">
@@ -63,7 +72,7 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                ติดต่อเรา
+                {t("nav.3")}
               </Link>
             </li>
 
@@ -73,18 +82,19 @@ function Navbar() {
                 className="nav-links"
                 onClick={closeMobileMenu}
               >
-                อุปกรณ์ทั้งหมด
+                {t("nav.4")}
               </Link>
             </li>
 
             <li className="nav-item">
               <Link to="/test" className="nav-links" onClick={closeMobileMenu}>
-                ข้อมูลอุปกรณ์
+                {t("nav.5")}
               </Link>
             </li>
             <li className="nav-item">
               <Link to="/#" className="nav-links" onClick={closeMobileMenu}>
-                ENG/ไทย
+                <div onClick={() => handleClick1("eng")}>Eng\</div>
+                <div onClick={() => handleClick1("th")}>ไทย</div>
               </Link>
             </li>
           </ul>
