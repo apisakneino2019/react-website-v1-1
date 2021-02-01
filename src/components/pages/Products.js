@@ -139,10 +139,10 @@ export default function Products() {
                       target="_blank"
                       download
                     >
-                      ดาวน์โหลดข้อมูลเพิ่มเติม
+                      {t("ser.7")}
                     </Link>
                     <Link to="/AboutUs">
-                      <button className="btn-btn-2">{data.sale} </button>
+                      <button className="btn-btn-2">{t("ser.8")} </button>
                     </Link>
                   </div>
                 </>

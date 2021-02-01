@@ -2,7 +2,7 @@ import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
 // import { useState } from "react";
-// import Axios from "axios";
+import { useTranslation } from "react-i18next";
 
 import ScrollToTop from "react-scroll-up";
 import TopAbout from "../TopAbout";
@@ -16,21 +16,22 @@ import TopAbout from "../TopAbout";
 // };
 
 export default function AboutUs() {
+  const { t } = useTranslation();
   return (
     <div className="area">
       <TopAbout />
 
       <div className="breadcrumbs">
-        <span className="showHere">คุณอยู่ที่: </span>
+        <span className="showHere"> {t("hero.11")}: </span>
         <a href="/" className="pathway">
-          หน้าแรก
+          {t("hero.12")}
         </a>
         <span className="showHere">
           {" "}
           <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
         </span>
         <a href="/services" className="pathway">
-          ติดต่อเรา
+          {t("nav.3")}
         </a>
       </div>
       <div className="hero-img-container">
@@ -64,15 +65,9 @@ export default function AboutUs() {
               type="text"
               id="fname"
               name="firstname"
-              placeholder="นาย/นาง/นางสาว/.."
+              placeholder="ชื่อ.."
             />
-            <label htmlFor="lname">นามสกุล</label>
-            <input
-              type="text"
-              id="lname"
-              name="lastname"
-              placeholder="นามสกุล"
-            />
+
             <label htmlFor="lname">ที่อยู่</label>
             <input
               type="text"

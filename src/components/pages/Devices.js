@@ -3,8 +3,10 @@ import "../../App.css";
 
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
+import { useTranslation } from "react-i18next";
 
 function Devices() {
+  const { t } = useTranslation();
   return (
     <div className="area">
       <div className="container">
@@ -30,7 +32,7 @@ function Devices() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -53,7 +55,7 @@ function Devices() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -78,7 +80,7 @@ function Devices() {
                 </p>
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -101,7 +103,7 @@ function Devices() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>

@@ -1,4 +1,23 @@
     @import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+    .newspaper {
+        column-count: 4;
+        padding-top: 10vh;
+    }
+    
+    .newspaper p {
+        padding-top: 12vh;
+        color: rgb(255, 0, 51);
+    }
+    
+    .newspaper span {
+        padding-top: 50vh;
+        color: rgb(0, 8, 255);
+    }
+    
+    .react-calendar {
+        margin: 0px auto;
+    }
+    
     .TopTitle {
         /* background-image: linear-gradient(to bottom right, red, yellow); */
         background: url('/img-v1/fire-2197606_1920.jpg');

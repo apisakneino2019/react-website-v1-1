@@ -92,10 +92,8 @@ function Navbar() {
               </Link>
             </li>
             <li className="nav-item">
-              <Link to="/#" className="nav-links" onClick={closeMobileMenu}>
-                <div onClick={() => handleClick1("eng")}>Eng\</div>
-                <div onClick={() => handleClick1("th")}>ไทย</div>
-              </Link>
+              <button onClick={() => handleClick1("eng")}> {t("nav.7")}</button>
+              <button onClick={() => handleClick1("th")}> {t("nav.6")}</button>
             </li>
           </ul>
         </div>

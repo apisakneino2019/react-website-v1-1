@@ -5,9 +5,13 @@ const Op = db.Sequelize.Op;
 exports.create = (req, res) => {
   // Save to MySQL database
   Tutorial.create({
-    title: req.body.title,
-    description: req.body.description,
-    published: req.body.published,
+    first_name: req.body.first_name,
+    last_name: req.body.last_name,
+    address: req.body.address,
+    email: req.body.email,
+    phone: req.body.phone,
+    decription: req.body.decription,
+    province: req.body.province,
   }).then((data) => {
     // Send created customer to client
     res.send(data);
@@ -15,7 +19,6 @@ exports.create = (req, res) => {
 };
 // Retrieve all Tutorials from the database.
 exports.findAll = (req, res) => {
-  
   Tutorial.findAll().then((data) => {
     // Send all customers to Client
     res.send(data);

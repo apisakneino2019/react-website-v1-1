@@ -4,8 +4,7 @@ import Footer from "../Footer";
 import ContactUs from "../ContactUs";
 import Carousel from "react-multi-carousel";
 import "react-multi-carousel/lib/styles.css";
-import ImageUploader from "react-images-upload";
-// import { Link } from "react-router-dom";
+import { useTranslation } from "react-i18next";
 
 import ScrollToTop from "react-scroll-up";
 import TopSer from "../TopSer";
@@ -191,6 +190,7 @@ const images = [
 ];
 
 export default function Services() {
+  const { t } = useTranslation();
   let sliceimg = images.map(function (data, i) {
     return (
       <>
@@ -202,9 +202,6 @@ export default function Services() {
             width="100%"
             height="auto"
           />
-          {/* <Link to="/AboutUs">
-            <p style={{ textAlign: "center" }}>{data.title}</p>
-          </Link> */}
         </div>
       </>
     );
@@ -234,16 +231,16 @@ export default function Services() {
             </Carousel>
           </div>
           <div className="breadcrumbs">
-            <span className="showHere">คุณอยู่ที่: </span>
+            <span className="showHere">{t("hero.11")}: </span>
             <a href="/" className="pathway">
-              หน้าแรก
+              {t("nav.12")}
             </a>
             <span className="showHere">
               {" "}
               <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
             </span>
             <a href="/services" className="pathway">
-              สินค้าและบริการ
+              {t("nav.2")}
             </a>
           </div>
           <ContactUs />

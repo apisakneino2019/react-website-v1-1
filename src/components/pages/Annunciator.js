@@ -3,8 +3,10 @@ import "../../App.css";
 
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
+import { useTranslation } from "react-i18next";
 
 function Annunciator() {
+  const { t } = useTranslation();
   return (
     <div className="area">
       <div className="container">
@@ -15,7 +17,7 @@ function Annunciator() {
               <img
                 className="data-img"
                 src="/img-v1/Annunciator-1.png"
-                alt="control "
+                alt="Annunciator "
               />
               <div className="data-text">
                 <h3>FireWatcher 122 รีโมท LCD Annunciator FW122 </h3>
@@ -29,7 +31,7 @@ function Annunciator() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -39,7 +41,7 @@ function Annunciator() {
               <img
                 className="data-img"
                 src="/img-v1/Annunciator-2.png"
-                alt="control "
+                alt="Annunciator "
               />
               <div className="data-text">
                 <h3>FireWatcher 123 รีโมท LCD Annunciator FW123</h3>
@@ -52,7 +54,7 @@ function Annunciator() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -62,7 +64,7 @@ function Annunciator() {
               <img
                 className="data-img"
                 src="/img-v1/Annunciator-3.png"
-                alt="control "
+                alt="Annunciator "
               />
               <div className="data-text">
                 <h3>FireWatcher 129 รีโมท LED Annunciator FW129</h3>
@@ -77,17 +79,17 @@ function Annunciator() {
                 </p>
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
             </div>
-            {/* ชุดที่4 */}
+            {/* ชุดที่ 4 */}
             <div className="img">
               <img
                 className="data-img"
                 src="/img-v1/Annunciator-4.png"
-                alt="control "
+                alt="Annunciator "
               />
               <div className="data-text">
                 <h3>สิ่งที่ส่งมาด้วยสภาพอากาศ MA1100</h3>
@@ -99,7 +101,7 @@ function Annunciator() {
                 </p>
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>

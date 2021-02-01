@@ -4,8 +4,10 @@ import "../../App.css";
 
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
+import { useTranslation } from "react-i18next";
 
 function Controlpanels() {
+  const { t } = useTranslation();
   return (
     <div className="area">
       <div className="container">
@@ -36,7 +38,7 @@ function Controlpanels() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -65,7 +67,7 @@ function Controlpanels() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -94,7 +96,7 @@ function Controlpanels() {
                 </p>
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>

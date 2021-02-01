@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import "../../App.css";
 import Footer from "../Footer";
 import Annunciator from "./Annunciator";
@@ -9,22 +9,29 @@ import Manualpullstation from "./Manualpullstation";
 import Firealarmmodules from "./Firealarmmodules";
 import { Link } from "react-router-dom";
 import ScrollToTop from "react-scroll-up";
+import { useTranslation } from "react-i18next";
+import React, { useState } from "react";
+import Calendar from "react-calendar";
+import "react-calendar/dist/Calendar.css";
 
 function Test() {
+  const { t } = useTranslation();
+
   return (
     <div className="area">
       <GuidePage />
+
       <div className="breadcrumbs">
-        <span className="showHere">คุณอยู่ที่: </span>
+        <span className="showHere"> {t("hero.11")}: </span>
         <a href="/" className="pathway">
-          หน้าแรก
+          {t("hero.12")}
         </a>
         <span className="showHere">
           {" "}
           <i class="fa fa-arrow-right" aria-hidden="true"></i>{" "}
         </span>
         <a href="/services" className="pathway">
-          ข้อมูลอุปกรณ์
+          {t("nav.5")}
         </a>
       </div>
       <div className="container">
@@ -41,6 +48,7 @@ function Test() {
               <a href="#">»</a>
             </li>
           </ul>
+
           <div className="item">
             {/* ชุดที่1 */}
             <div className="img">
@@ -67,7 +75,7 @@ function Test() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -96,7 +104,7 @@ function Test() {
 
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>
@@ -125,7 +133,7 @@ function Test() {
                 </p>
                 <div className="btn">
                   <Link to="/products">
-                    <button className="btn-1">อุปกรณ์ทั้งหมด </button>
+                    <button className="btn-1">{t("ser.9")} </button>
                   </Link>
                 </div>
               </div>

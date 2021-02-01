@@ -4,7 +4,9 @@
         "2": "Products And Services",
         "3": "Contact us",
         "4": "All equipment",
-        "5": "Device information"
+        "5": "Device information",
+        "6": "Thai",
+        "7": "eng"
     },
     "hero": {
         "1": "There is a cause for fire! How can we prevent it? ",
@@ -39,5 +41,18 @@
         "15": "Telephone / Fax 02-012-3795 / 065-969-3552",
         "16": "Email: ast.allsolutionstech@gmail.com  ",
         "17": "All Web Technology Map"
+    },
+
+    "ser": {
+        "title1": "Control cabinet",
+        "title2": "Smoke detectors",
+        "title3": "Heat detector device",
+        "title4": "Alarm device",
+        "title5": "Manual alarm device",
+        "title6": "Accessories",
+        "7": "Download more information",
+        "8": "Ask for more information",
+        "9": "All equipment"
     }
+
 }
