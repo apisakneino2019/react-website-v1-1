@@ -41,8 +41,8 @@ function Navbar() {
           <img
             src="/img-v1/Logohome.png"
             alt="LoGo"
-            width="150px"
-            height="60px"
+            width="250vw"
+            height="auto"
           />
         </div>
 
@@ -93,6 +93,8 @@ function Navbar() {
             </li>
             <li className="nav-item">
               <button onClick={() => handleClick1("eng")}> {t("nav.7")}</button>
+            </li>
+            <li className="nav-item">
               <button onClick={() => handleClick1("th")}> {t("nav.6")}</button>
             </li>
           </ul>

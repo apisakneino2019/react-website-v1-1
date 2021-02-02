@@ -233,7 +233,7 @@ export default function Services() {
           <div className="breadcrumbs">
             <span className="showHere">{t("hero.11")}: </span>
             <a href="/" className="pathway">
-              {t("nav.12")}
+              {t("hero.12")}
             </a>
             <span className="showHere">
               {" "}

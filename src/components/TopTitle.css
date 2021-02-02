@@ -100,4 +100,8 @@
             color: red;
             z-index: 1;
         }
+        .newspaper {
+            column-count: 1;
+            padding-top: 10vh;
+        }
     }
