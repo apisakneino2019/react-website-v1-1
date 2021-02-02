@@ -9,11 +9,14 @@ import ScrollToTop from "react-scroll-up";
 function Home() {
   return (
     <>
-      <ScrollToTop showUnder={160}>
-        <span>
-          <img src="/img-960px/up_arrow_round.png" alt="UpArrow" />
-        </span>
-      </ScrollToTop>
+      <div className="area">
+        {" "}
+        <ScrollToTop showUnder={160}>
+          <span>
+            <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
+          </span>
+        </ScrollToTop>
+      </div>
       <TopTitle />
       <HeroSection />
       <Cards />
