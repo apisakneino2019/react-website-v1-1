@@ -7,20 +7,14 @@ import { useTranslation } from "react-i18next";
 import ScrollToTop from "react-scroll-up";
 import TopAbout from "../TopAbout";
 
-// const [employeeList, setEmployeeList] = useState([]);
-
-// const getEmployees = () => {
-//   Axios.get("http://localhost:8080/api").then((response) => {
-//     setEmployeeList(response.data);
-//   });
-// };
-
 export default function AboutUs() {
   const { t } = useTranslation();
   return (
     <div className="area">
       <TopAbout />
-
+      <ScrollToTop showUnder={160}>
+        <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
+      </ScrollToTop>
       <div className="breadcrumbs">
         <span className="showHere"> {t("hero.11")}: </span>
         <a href="/" className="pathway">
@@ -186,14 +180,6 @@ export default function AboutUs() {
           </form>
           {/* ******************btnsubmit******************* */}
         </div>
-      </div>
-      <div className="area">
-        {" "}
-        <ScrollToTop showUnder={160}>
-          <span>
-            <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
-          </span>
-        </ScrollToTop>
       </div>
 
       <Footer />

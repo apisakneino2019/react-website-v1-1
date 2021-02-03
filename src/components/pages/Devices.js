@@ -114,9 +114,7 @@ function Devices() {
       <div className="area">
         {" "}
         <ScrollToTop showUnder={160}>
-          <span>
-            <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
-          </span>
+          <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
         </ScrollToTop>
       </div>
     </div>

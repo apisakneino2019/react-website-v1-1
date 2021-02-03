@@ -153,9 +153,7 @@ export default function Products() {
           <div className="btn-next-page"></div>
 
           <ScrollToTop showUnder={200}>
-            <span>
-              <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
-            </span>
+            <img src="/img-960px/up_arrow_round.png" alt="up_arrow_round" />
           </ScrollToTop>
         </div>
       </div>

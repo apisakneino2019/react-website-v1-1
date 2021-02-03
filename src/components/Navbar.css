@@ -8,7 +8,7 @@
 
 .navbar {
     background: linear-gradient(50deg, rgb(255, 255, 255) 0%, rgb(255, 0, 0) 100%);
-    height: 20vh;
+    height: 80px;
     margin: 0 auto;
     max-width: 100%;
     display: flex;
@@ -34,7 +34,6 @@
     height: 80px;
     max-width: 1140px;
     margin: 0 auto;
-    transform: translate(115px, 0px);
 }
 
 .nav-links:hover {
@@ -45,17 +44,12 @@
 
 .nav-menu {
     display: grid;
-    grid-template-columns: repeat(5, auto);
+    grid-template-columns: repeat(6, auto);
     grid-gap: 0;
     list-style: none;
     text-align: center;
     justify-content: end;
-    margin-right: 5rem;
     text-transform: uppercase;
-}
-
-.nav-item {
-    height: 80px;
 }
 
 .nav-item ul {
@@ -75,7 +69,12 @@
     align-items: center;
     text-decoration: none;
     padding: 0.5rem 1rem;
-    height: 100%;
+    height: 80px;
+}
+
+.lang {
+    color: #fff;
+    font-size: 0.9rem;
 }
 
 .nav-links:hover {
@@ -84,11 +83,18 @@
 }
 
 .nav-item button {
-    background-color: #ff110000;
-    border: none;
-    color: white;
+    display: inline-block;
+    padding: 25px 10px;
+    font-size: .9rem;
+    cursor: pointer;
     text-align: center;
-    font-size: 16px;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #4caf4f00;
+    border: none;
+    border-radius: 15px;
+    font-weight: bold;
 }
 
 .fa-bars {

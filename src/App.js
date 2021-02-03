@@ -27,30 +27,32 @@ function App() {
   return (
     <>
       {" "}
-      <Router>
-        <Navbar />
-        <Switch>
-          <Route path="/" exact component={Home} />
+      <React.Fragment>
+        <Router>
+          <Navbar />
+          <Switch>
+            <Route path="/" exact component={Home} />
 
-          <Route path="/services" component={Services} />
-          <Route path="/AboutUs" component={AboutUs} />
-          <Route path="/products" component={Products} />
-          <Route path="/sign-up" component={SignUp} />
-          <Route path="/test" component={Test} />
-          <Route path="/Annunciator" component={Annunciator} />
-          <Route path="/Controlpanels" component={Controlpanels} />
-          <Route path="/Devices" component={Devices} />
-          <Route path="/Heatdetectors" component={Heatdetectors} />
-          <Route path="/Manualpullstation" component={Manualpullstation} />
-          <Route path="/Firealarmmodules" component={Firealarmmodules} />
-          <Route path="/Productstest" component={Productstest} />
-          <Route path="/ProductsFrist" component={ProductsFrist} />
-          <Route path="/ProductsSecond" component={ProductsSecond} />
-          <Route path="/ContactUs" component={ContactUs} />
-        </Switch>
+            <Route path="/services" component={Services} />
+            <Route path="/AboutUs" component={AboutUs} />
+            <Route path="/products" component={Products} />
+            <Route path="/sign-up" component={SignUp} />
+            <Route path="/test" component={Test} />
+            <Route path="/Annunciator" component={Annunciator} />
+            <Route path="/Controlpanels" component={Controlpanels} />
+            <Route path="/Devices" component={Devices} />
+            <Route path="/Heatdetectors" component={Heatdetectors} />
+            <Route path="/Manualpullstation" component={Manualpullstation} />
+            <Route path="/Firealarmmodules" component={Firealarmmodules} />
+            <Route path="/Productstest" component={Productstest} />
+            <Route path="/ProductsFrist" component={ProductsFrist} />
+            <Route path="/ProductsSecond" component={ProductsSecond} />
+            <Route path="/ContactUs" component={ContactUs} />
+          </Switch>
 
-        <Scrolltop />
-      </Router>
+          <Scrolltop />
+        </Router>
+      </React.Fragment>
     </>
   );
 }

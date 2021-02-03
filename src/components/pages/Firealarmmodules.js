@@ -210,9 +210,7 @@ function Firealarmmodules() {
         </div>
       </div>
       <ScrollToTop showUnder={160}>
-        <span>
-          <img src="/img-960px/up_arrow_round.png" alt="" />
-        </span>
+        <img src="/img-960px/up_arrow_round.png" alt="" />
       </ScrollToTop>
     </div>
   );

@@ -6,11 +6,11 @@ import { BrowserRouter } from "react-router-dom";
 import "./i18n";
 
 ReactDOM.render(
-  <BrowserRouter>
-    <Suspense fallback={<div>Wait a moment please(กรุณารอสักครู่... )</div>}>
+  <Suspense fallback={<div>Wait a moment please(กรุณารอสักครู่... )</div>}>
+    <BrowserRouter>
       <App />
-    </Suspense>
-  </BrowserRouter>,
+    </BrowserRouter>
+  </Suspense>,
 
   document.getElementById("root")
 );
